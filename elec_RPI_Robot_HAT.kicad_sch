@@ -2565,6 +2565,12 @@
 		(uuid "fd8ecdb1-38b8-46de-af7f-1da0a43da889")
 	)
 	(junction
+		(at 124.46 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de56a51-2347-4dc9-8e97-cd97a74c4984")
+	)
+	(junction
 		(at 158.75 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2595,6 +2601,12 @@
 		(uuid "76cb47b4-1f15-4a9a-95c5-aaebec2afaa5")
 	)
 	(junction
+		(at 106.68 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e12a6f-74aa-4e7d-b5aa-5ad28280bf83")
+	)
+	(junction
 		(at 163.83 110.49)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -2623,6 +2635,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "c2c7a444-8496-4fd9-a687-3ca98de54326")
+	)
+	(junction
+		(at 106.68 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3515a4f-629d-4d33-a796-f4c862641472")
 	)
 	(junction
 		(at 119.38 184.15)
@@ -2916,6 +2934,16 @@
 	)
 	(bus
 		(pts
+			(xy 67.31 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079094d8-a058-427a-8545-170a90d13a3c")
+	)
+	(bus
+		(pts
 			(xy 130.81 110.49) (xy 130.81 113.03)
 		)
 		(stroke
@@ -2933,6 +2961,16 @@
 			(type default)
 		)
 		(uuid "0cc62f2c-f3a3-4488-8045-12aa8e520c17")
+	)
+	(bus
+		(pts
+			(xy 92.71 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7fb14a-db4f-41ea-a38e-1610e2432fd7")
 	)
 	(wire
 		(pts
@@ -3123,6 +3161,16 @@
 			(type solid)
 		)
 		(uuid "3a74506c-235b-4b89-88f7-bd74aeeb75b7")
+	)
+	(bus
+		(pts
+			(xy 106.68 77.47) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3272f9-47f8-4899-b5ac-6cd951132972")
 	)
 	(polyline
 		(pts
@@ -3344,6 +3392,16 @@
 		)
 		(uuid "5e2e2d78-f1f1-4b12-9681-03f080e751de")
 	)
+	(bus
+		(pts
+			(xy 106.68 72.39) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5f43c4-9e14-470d-8226-5b7894a2c9ce")
+	)
 	(wire
 		(pts
 			(xy 162.56 105.41) (xy 179.07 105.41)
@@ -3493,6 +3551,16 @@
 			(type default)
 		)
 		(uuid "7a46210f-d259-4a10-96ea-d142ab711677")
+	)
+	(bus
+		(pts
+			(xy 67.31 93.98) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e70c400-0d17-4f3c-b664-98f568015efa")
 	)
 	(bus
 		(pts
@@ -3664,6 +3732,16 @@
 		)
 		(uuid "af965509-ef82-496f-a549-5303f8d10db8")
 	)
+	(bus
+		(pts
+			(xy 63.5 93.98) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afca7d33-15a5-406e-8b83-e9d7f20b54dd")
+	)
 	(polyline
 		(pts
 			(xy 19.05 39.37) (xy 177.8 39.37)
@@ -3673,6 +3751,16 @@
 			(type default)
 		)
 		(uuid "b02e3a0e-82b7-4974-8bb8-875d58b2e391")
+	)
+	(bus
+		(pts
+			(xy 106.68 97.79) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c5fc0c-1126-4fce-aae3-39c060709dd6")
 	)
 	(wire
 		(pts
@@ -3734,9 +3822,19 @@
 		)
 		(uuid "c0b2481a-d638-403f-a06a-0c10b92e17f3")
 	)
+	(wire
+		(pts
+			(xy 124.46 184.15) (xy 129.54 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d6f89a-1b38-41ca-9e19-304437a0a6b1")
+	)
 	(bus
 		(pts
-			(xy 102.87 72.39) (xy 130.81 72.39)
+			(xy 102.87 72.39) (xy 106.68 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3836,7 +3934,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 184.15) (xy 119.38 184.15)
+			(xy 119.38 184.15) (xy 124.46 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3883,6 +3981,16 @@
 			(type solid)
 		)
 		(uuid "f849bd84-f2c1-428c-b9dc-11fb9b160a4f")
+	)
+	(wire
+		(pts
+			(xy 129.54 182.88) (xy 129.54 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facac13f-94b2-43d8-b0c1-0c49f8ce27ff")
 	)
 	(wire
 		(pts
@@ -5975,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT"
+		(property "Footprint" "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero"
 			(at 154.94 110.49 0)
 			(effects
 				(font
@@ -8835,6 +8943,173 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 129.54 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f955773b-71d4-4039-b847-22d3e8fcba6d")
+		(property "Reference" "H7"
+			(at 132.08 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 135.89 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom"
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole"
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "139f84c1-ed4c-44da-8cc5-d13442a90d03")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 185.42 0)
 		(unit 1)
@@ -8936,6 +9211,16 @@
 				(hide yes)
 			)
 		)
+		(pin "{GPIO}" input
+			(at 63.5 93.98 0)
+			(uuid "a087e14c-59e2-42b5-989a-605136db759b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
@@ -8977,6 +9262,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "{GPIO}" input
+			(at 92.71 97.79 0)
+			(uuid "6ca308a6-fa69-4d6d-821c-a3b4c33d174f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
