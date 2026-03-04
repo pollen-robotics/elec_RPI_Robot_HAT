@@ -2769,6 +2769,17 @@
 		)
 		(uuid "431b89f6-ffc2-41ab-b0c5-a329f18026f2")
 	)
+	(text "Cabled buses on Raspberry PIs\n - PI zero 2W:\n     - I2C0 (pin 27/28 ID_SD/C): HAT identification (reserved)\n     - I2C1 (pin 2/3 SDA/SCL): IMU + Audio + Stemma/QT\n - PI 4:\n     - same I2C0/1\n     - I2C4 (pin 8/9 SDA/SCL): Stemma/QT\n     - I2C5 (pin 10/11 SDA/SCL): Stemma/QT\n - PI 5:\n     - same I2C0/1\n     - I2C2 (pin 4/5 SDA/SCL): Stemma/QT"
+		(exclude_from_sim no)
+		(at 181.102 57.912 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "573da85b-985d-4719-aad6-0916966dd1a9")
+	)
 	(text "EB"
 		(exclude_from_sim no)
 		(at 63.5 44.45 0)
@@ -2824,7 +2835,7 @@
 		)
 		(uuid "b088e14a-2a87-440c-a033-f65020b82725")
 	)
-	(text "Cabled GPIOs on the 40-way Header:\n - GPIO02: Audio + Stemma/QT - SDA\n - GPIO03: Audio + Stemma/QT - SCL\n - GPIO04\n - GPIO05\n - GPIO06\n - GPIO07: IMU - Acc_CS\n - GPIO08: IMU - Gyr_CS\n - GPIO09: IMU - MISO\n - GPIO10: IMU - MOSI\n - GPIO11: IMU - Clk\n - GPIO12\n - GPIO13: Dynamixel - UART_RTS\n - GPIO14: Dynamixel - UART_Tx\n - GPIO15: Dynamixel - UART_Rx\n - GPIO16\n - GPIO17\n - GPIO18: Audio, PCM Clk\n - GPIO19: Audio, PCM FS\n - GPIO20: Audio, Din\n - GPIO21: Audio, Dout\n - GPIO22\n - GPIO23\n - GPIO24\n - GPIO25\n - GPIO26\n - GPIO27\n - ID_SD/C: HAT identification over I2C\n"
+	(text "Cabled GPIOs on the 40-way Header:\n - GPIO00/01: HAT identification over I2C (reserved)\n - GPIO02: IMU + Audio + Stemma/QT - SDA\n - GPIO03: IMU + Audio + Stemma/QT - SCL\n - GPIO04: Stemma/QT - SDA\n - GPIO05: Stemma/QT - SCL\n - GPIO06\n - GPIO07\n - GPIO08: Stemma/QT - SDA\n - GPIO09: Stemma/QT - SCL\n - GPIO10: Stemma/QT - SDA\n - GPIO11: Stemma/QT - SCL\n - GPIO12\n - GPIO13: Dynamixel - UART_RTS\n - GPIO14: Dynamixel - UART_Tx\n - GPIO15: Dynamixel - UART_Rx\n - GPIO16\n - GPIO17\n - GPIO18: Audio, PCM Clk\n - GPIO19: Audio, PCM FS\n - GPIO20: Audio, Din\n - GPIO21: Audio, Dout\n - GPIO22\n - GPIO23\n - GPIO24\n - GPIO25\n - GPIO26\n - GPIO27\n"
 		(exclude_from_sim no)
 		(at 192.786 154.178 0)
 		(effects
@@ -2848,7 +2859,7 @@
 	)
 	(text "See: https://github.com/raspberrypi/utils/tree/master/eeptools"
 		(exclude_from_sim no)
-		(at 67.31 187.96 0)
+		(at 75.946 188.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9086,7 +9097,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.5 158.75 0)
 			(effects
 				(font
@@ -10318,7 +10329,7 @@
 	)
 	(sheet
 		(at 24.13 80.01)
-		(size 12.7 102.87)
+		(size 12.7 109.22)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10342,7 +10353,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 24.13 183.4646 0)
+			(at 24.13 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
