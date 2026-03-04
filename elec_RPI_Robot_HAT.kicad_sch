@@ -2096,131 +2096,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2572,107 +2447,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(bus_alias "GPIO"
 		(members "ID_SD" "ID_SC" "IO_02" "IO_03" "IO_04" "IO_05" "IO_06" "IO_07"
@@ -2727,7 +2501,7 @@
 	)
 	(text "Fiducials"
 		(exclude_from_sim no)
-		(at 149.098 172.72 0)
+		(at 150.368 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2738,7 +2512,7 @@
 	)
 	(text "ASE01xyz"
 		(exclude_from_sim no)
-		(at 115.57 179.705 0)
+		(at 116.84 168.275 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2846,17 +2620,6 @@
 		)
 		(uuid "d193b307-c435-42ea-9e27-3882764c5d73")
 	)
-	(text "GPIO Voltage select\n"
-		(exclude_from_sim no)
-		(at 134.62 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d688e39d-46f5-402e-8f90-d12f86ec558c")
-	)
 	(text "See: https://github.com/raspberrypi/utils/tree/master/eeptools"
 		(exclude_from_sim no)
 		(at 75.946 188.214 0)
@@ -2937,22 +2700,10 @@
 		(uuid "4ebb1d86-992c-4fd4-b0a3-2ddb90caed68")
 	)
 	(junction
-		(at 128.27 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57b6012a-bdc9-4778-a924-65cdeae5e5c0")
-	)
-	(junction
 		(at 86.36 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59bac5d8-cb6a-45b5-9735-b613a0e3603f")
-	)
-	(junction
-		(at 133.35 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f9d0fd8-b861-4d43-bc5e-f85c078824d9")
 	)
 	(junction
 		(at 121.92 85.09)
@@ -3330,16 +3081,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 153.67) (xy 128.27 153.67)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "05d0dffe-3fd1-465b-96ab-78c9c12e4e4c")
-	)
-	(wire
-		(pts
 			(xy 130.81 139.7) (xy 138.43 139.7)
 		)
 		(stroke
@@ -3390,16 +3131,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 153.67) (xy 128.27 157.48)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0e4167ac-dcec-478b-ba6a-1ab6acf1dd9e")
-	)
-	(wire
-		(pts
 			(xy 81.28 162.56) (xy 81.28 170.18)
 		)
 		(stroke
@@ -3427,16 +3158,6 @@
 			(type default)
 		)
 		(uuid "1169bff1-ca71-495b-b20a-8d1b5a68e5b0")
-	)
-	(wire
-		(pts
-			(xy 137.16 153.67) (xy 133.35 153.67)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "18f0bdad-14b8-4fd2-a5df-e4ec3f28831e")
 	)
 	(bus
 		(pts
@@ -3660,16 +3381,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 153.67) (xy 133.35 153.67)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "3a03290f-06b2-4e64-9b9e-684717542835")
-	)
-	(wire
-		(pts
 			(xy 138.43 87.63) (xy 138.43 85.09)
 		)
 		(stroke
@@ -3777,16 +3488,6 @@
 			(type default)
 		)
 		(uuid "479c06d1-28cc-4e84-a676-c2ef8f270b0d")
-	)
-	(wire
-		(pts
-			(xy 116.84 153.67) (xy 120.65 153.67)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "48566d2b-0df1-402a-8734-2aff5f30c03d")
 	)
 	(wire
 		(pts
@@ -3957,16 +3658,6 @@
 			(type solid)
 		)
 		(uuid "6adb1a5e-783a-4787-bc52-d885e16f809b")
-	)
-	(wire
-		(pts
-			(xy 125.73 157.48) (xy 128.27 157.48)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "6bbfc37d-a312-4b7d-abb5-4443343e76fb")
 	)
 	(wire
 		(pts
@@ -4218,16 +3909,6 @@
 		)
 		(uuid "9e2d8a3c-78d4-41f6-a75d-10043a1776cc")
 	)
-	(wire
-		(pts
-			(xy 135.89 157.48) (xy 133.35 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f9b665e-a528-4f07-b33b-a82ac33f38e0")
-	)
 	(bus
 		(pts
 			(xy 156.21 92.71) (xy 156.21 95.25)
@@ -4237,16 +3918,6 @@
 			(type default)
 		)
 		(uuid "9ff57d04-fa29-410d-b62c-7375ff89200a")
-	)
-	(wire
-		(pts
-			(xy 133.35 157.48) (xy 133.35 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a012c79f-40c7-45a5-b6d7-abd5b67b6acb")
 	)
 	(bus
 		(pts
@@ -4577,16 +4248,6 @@
 			(type default)
 		)
 		(uuid "f45ef8c1-2dc9-4f60-bbcf-fafab8cd9de2")
-	)
-	(wire
-		(pts
-			(xy 116.84 157.48) (xy 120.65 157.48)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f62f894b-03c1-4ec5-9d54-137e7e15d642")
 	)
 	(wire
 		(pts
@@ -6671,28 +6332,6 @@
 		)
 		(uuid "fcbd09b6-c1fd-4777-b2b4-98bc3165e843")
 	)
-	(global_label "GPIO_VREF"
-		(shape input)
-		(at 137.16 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d0518cb-0f06-4901-a0b1-cdc282caa797")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1843 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_02x20_Odd_Even_MountingPin")
 		(at 129.54 107.95 0)
@@ -7218,7 +6857,7 @@
 	)
 	(symbol
 		(lib_id "Library_Pollen:PCB")
-		(at 113.03 173.355 0)
+		(at 114.3 161.925 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7226,7 +6865,7 @@
 		(dnp no)
 		(uuid "06a9ae71-e3c1-4cc3-b2e3-a63700a1b326")
 		(property "Reference" "H1"
-			(at 115.57 170.815 0)
+			(at 116.84 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +6875,7 @@
 			)
 		)
 		(property "Value" "PCB01xyz"
-			(at 115.57 175.895 0)
+			(at 116.84 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +6893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +6902,7 @@
 			)
 		)
 		(property "Description" "PCB"
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +6911,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +6920,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +6929,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +6938,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +6947,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +6956,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +6965,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +6974,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +6983,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +6992,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7001,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7010,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7019,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 113.03 173.355 0)
+			(at 114.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,237 +7037,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 123.19 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "070a7c41-66fe-4418-a8a2-d622e9d8bd75")
-		(property "Reference" "R9"
-			(at 119.634 160.02 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "DNP-0R"
-			(at 127.762 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 123.19 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17168"
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 123.19 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a2cad1f-1fe5-4eac-abdb-2f108ae980fe")
-		)
-		(pin "1"
-			(uuid "d4ab3d5e-4e25-4879-806b-031fa1885c92")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 157.48 177.8 0)
+		(at 158.75 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7637,7 +7047,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b7fcc49-f420-4a1f-a4f0-7b5b5e0b0bc1")
 		(property "Reference" "FID3"
-			(at 160.02 177.7999 0)
+			(at 161.29 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7057,7 @@
 			)
 		)
 		(property "Value" "DNP Fiducial"
-			(at 160.02 179.0699 0)
+			(at 161.29 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7067,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +7076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7675,7 +7085,7 @@
 			)
 		)
 		(property "Description" "Fiducial"
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +7094,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,7 +7103,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +7112,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7121,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7130,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7139,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7148,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +7157,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +7166,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +7175,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +7184,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +7193,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +7202,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 157.48 177.8 0)
+			(at 158.75 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,73 +7458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 135.89 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a2d33c8-9b3d-409e-b846-086cab67ffa3")
-		(property "Reference" "#FLG01"
-			(at 137.795 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 139.7 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 135.89 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90ae78c5-1294-47b2-94f6-64539ed3f43e")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_EEPROM:CAT24C128")
 		(at 55.88 172.72 0)
 		(unit 1)
@@ -8278,7 +7621,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 149.86 177.8 0)
+		(at 151.13 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8286,7 +7629,7 @@
 		(dnp no)
 		(uuid "7259a5ec-2f13-48c2-a14b-4b82c2611979")
 		(property "Reference" "FID1"
-			(at 152.4 177.8 0)
+			(at 153.67 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +7639,7 @@
 			)
 		)
 		(property "Value" "DNP Fiducial"
-			(at 152.4 179.0699 0)
+			(at 153.67 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,7 +7649,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,7 +7658,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8324,7 +7667,7 @@
 			)
 		)
 		(property "Description" "Fiducial"
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +7676,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +7685,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +7694,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +7703,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +7712,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +7721,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +7730,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,7 +7739,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +7748,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +7757,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +7766,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8432,7 +7775,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +7784,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 149.86 177.8 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,235 +7796,6 @@
 			(project "elec_forcathon"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 123.19 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8818e4c8-7e97-4b45-84e9-df449aada5b5")
-		(property "Reference" "R8"
-			(at 119.634 152.4 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 127 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 123.19 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17168"
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 123.19 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c900b94-decb-45b8-8a09-d7779a009725")
-		)
-		(pin "1"
-			(uuid "c66e9bd4-d5db-41d1-8522-bfacebf3fe70")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8755,7 +7869,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 153.67 184.15 0)
+		(at 154.94 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8764,7 +7878,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f86a0c6-f4a9-44e0-a21b-31e61eaf4f6f")
 		(property "Reference" "FID2"
-			(at 156.21 184.1499 0)
+			(at 157.48 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +7888,7 @@
 			)
 		)
 		(property "Value" "DNP Fiducial"
-			(at 156.21 185.4199 0)
+			(at 157.48 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +7898,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +7907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +7916,7 @@
 			)
 		)
 		(property "Description" "Fiducial"
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +7925,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +7934,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,7 +7943,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,7 +7952,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8847,7 +7961,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +7970,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +7979,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +7988,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +7997,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,7 +8006,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +8015,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,7 +8024,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +8033,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 153.67 184.15 0)
+			(at 154.94 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,73 +8045,6 @@
 			(project "elec_forcathon"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 116.84 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f9f3b3a-c114-4418-a896-c3ab9027c107")
-		(property "Reference" "#PWR029"
-			(at 120.65 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 113.03 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8574c1b3-070f-4330-8f1b-843857e5a83a")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9453,75 +8500,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 116.84 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0f441d4-ac13-4c9b-ad13-effb38f28e53")
-		(property "Reference" "#PWR028"
-			(at 120.65 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 113.03 153.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f708190-e1fd-4cc9-bab8-a0826b3a440e")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library_Pollen:Logo Pollen 2021")
-		(at 124.46 184.15 0)
+		(at 125.73 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9529,7 +8509,7 @@
 		(dnp no)
 		(uuid "dd2ae3a6-676c-4d96-97e5-9767126a84d9")
 		(property "Reference" "H3"
-			(at 125.73 182.245 0)
+			(at 127 170.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +8518,7 @@
 			)
 		)
 		(property "Value" "DNP Logo Pollen 2021"
-			(at 130.81 181.61 0)
+			(at 132.08 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +8527,7 @@
 			)
 		)
 		(property "Footprint" "Library_Pollen:Logo_Pollen_2021_sq"
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,7 +8536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +8545,7 @@
 			)
 		)
 		(property "Description" "Logo Pollen"
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +8554,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +8563,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,7 +8572,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,7 +8581,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,7 +8590,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +8599,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +8608,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +8617,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +8626,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +8635,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +8644,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +8653,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +8662,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 124.46 184.15 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +8987,7 @@
 	)
 	(symbol
 		(lib_id "Library_Pollen:Logo HF 2025")
-		(at 124.46 181.61 0)
+		(at 125.73 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10016,7 +8996,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea1c2c22-6d2c-49fa-8fff-2f60726446d3")
 		(property "Reference" "H2"
-			(at 130.81 179.07 0)
+			(at 132.08 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +9005,7 @@
 			)
 		)
 		(property "Value" "Logo HF 2025"
-			(at 133.35 185.42 0)
+			(at 134.62 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +9014,7 @@
 			)
 		)
 		(property "Footprint" "Library_Pollen:Logo_HF_2025"
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10043,7 +9023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +9032,7 @@
 			)
 		)
 		(property "Description" "Logo HF"
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +9041,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +9050,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +9059,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +9068,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +9077,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +9086,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +9095,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +9104,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +9113,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,7 +9122,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +9131,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 124.46 181.61 0)
+			(at 125.73 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
