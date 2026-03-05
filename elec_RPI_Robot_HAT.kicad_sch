@@ -6357,7 +6357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero"
+		(property "Footprint" "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero_SMD_connector"
 			(at 129.54 107.95 0)
 			(effects
 				(font
