@@ -9507,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 229.87 86.36 0)
 			(effects
 				(font
@@ -10780,7 +10780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -10959,7 +10959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
 			(at 229.87 88.9 0)
 			(effects
 				(font
