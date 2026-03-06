@@ -10493,7 +10493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de11fbc2-2e40-418f-894b-283f8577a51c")
-		(property "Reference" "TP4"
+		(property "Reference" "IMU_IT1"
 			(at 250.19 93.9799 90)
 			(effects
 				(font
@@ -10545,7 +10545,7 @@
 		(instances
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
-					(reference "TP4")
+					(reference "IMU_IT1")
 					(unit 1)
 				)
 			)

@@ -9497,7 +9497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5929f27e-75fa-416e-a38e-13abd09386bf")
-		(property "Reference" "TP1"
+		(property "Reference" "Sp2+1"
 			(at 234.95 81.2799 90)
 			(effects
 				(font
@@ -9549,7 +9549,7 @@
 		(instances
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/557beae8-45dc-49b3-a05f-ac573dd131ad"
-					(reference "TP1")
+					(reference "Sp2+1")
 					(unit 1)
 				)
 			)
@@ -10770,7 +10770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8036b7fe-7ae4-4769-801a-e633826ac0ba")
-		(property "Reference" "TP3"
+		(property "Reference" "MicBias1"
 			(at 144.78 116.8399 90)
 			(effects
 				(font
@@ -10822,7 +10822,7 @@
 		(instances
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/557beae8-45dc-49b3-a05f-ac573dd131ad"
-					(reference "TP3")
+					(reference "MicBias1")
 					(unit 1)
 				)
 			)
@@ -10949,7 +10949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89d7af32-2aa0-41b1-8dfb-75e8fce6eccb")
-		(property "Reference" "TP2"
+		(property "Reference" "Sp2-1"
 			(at 234.95 83.8199 90)
 			(effects
 				(font
@@ -11001,7 +11001,7 @@
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/557beae8-45dc-49b3-a05f-ac573dd131ad"
-					(reference "TP2")
+					(reference "Sp2-1")
 					(unit 1)
 				)
 			)

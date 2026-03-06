@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "elec RPI Robot HAT")
-		(date "2026-02-23")
+		(date "2026-03-06")
 		(rev "A1")
 		(company "Pollen Robotics/HF")
 	)
@@ -2510,7 +2510,7 @@
 		)
 		(uuid "3855db64-4801-445b-b83e-9e7849cbe5fc")
 	)
-	(text "ASE01xyz"
+	(text "ASE01187"
 		(exclude_from_sim no)
 		(at 116.84 168.275 0)
 		(effects
@@ -2652,7 +2652,7 @@
 		)
 		(uuid "f5d00bcc-eabe-48dd-9739-479bfa89e1ef")
 	)
-	(text "23/02/2026"
+	(text "06/03/2026"
 		(exclude_from_sim no)
 		(at 39.37 44.45 0)
 		(effects
@@ -6883,7 +6883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PCB01xyz"
+		(property "Value" "PCB01186"
 			(at 116.84 164.465 0)
 			(effects
 				(font
