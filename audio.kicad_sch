@@ -7334,16 +7334,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 264.16 93.98 0)
+		(at 264.16 96.52 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "156dd9ee-c8e6-409a-8a7d-797bf4d043af")
 		(property "Reference" "J1"
-			(at 266.7 93.9799 0)
+			(at 266.7 96.5201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +7352,7 @@
 			)
 		)
 		(property "Value" "Wago-2"
-			(at 266.7 96.5199 0)
+			(at 266.7 93.9801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,7 +7361,7 @@
 			)
 		)
 		(property "Footprint" "LCSC_parts_lib:Wago_2059-302_998-403"
-			(at 264.16 93.98 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +7370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 93.98 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7379,7 +7379,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 264.16 93.98 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7388,7 @@
 			)
 		)
 		(property "LCSC Part" "C2765060"
-			(at 264.16 93.98 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7403,7 @@
 			(uuid "7642bf6a-a8a6-48b6-96e1-16aaadee2cbd")
 		)
 		(instances
-			(project ""
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/557beae8-45dc-49b3-a05f-ac573dd131ad"
 					(reference "J1")
 					(unit 1)
