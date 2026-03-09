@@ -44970,8 +44970,8 @@
 		)
 	)
 	(gr_line
-		(start 94.522501 124.415001)
-		(end 103.922501 124.415001)
+		(start 75.697501 117.240001)
+		(end 85.097501 117.240001)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -44980,8 +44980,8 @@
 		(uuid "abaa0bb1-387a-4b87-84ab-5553f379bd96")
 	)
 	(gr_line
-		(start 94.522501 130.915001)
-		(end 103.922501 130.915001)
+		(start 75.697501 123.740001)
+		(end 85.097501 123.740001)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -53622,7 +53622,7 @@
 		)
 	)
 	(gr_text "1 mm PCB  thickness\n35 um (1 oz) copper"
-		(at 90.2025 143.275 0)
+		(at 99.797501 123.340001 0)
 		(layer "Dwgs.User")
 		(uuid "093e08c6-3401-4a34-97d2-48fa5450b9e9")
 		(effects
@@ -53634,7 +53634,7 @@
 		)
 	)
 	(gr_text "PCB specifications (https://jlcpcb.com/capabilities/pcb-capabilities)\n - via/holes: 0,2/0,45 mm\n - Via Hole-to-Hole Spacing: 0,2 mm\n - Min. track width and spacing (35 um) 0,10 / 0,10 mm\n - Min. track width and spacing (70 um) 0,16 / 0,20 mm\n - Inner layer via hole/PTH to copper clearance: 0.2 / 0,3 mm"
-		(at 86.9025 162.875 0)
+		(at 68.897501 165.140001 0)
 		(layer "Dwgs.User")
 		(uuid "1fde7ef4-da76-4d13-a207-3ed8355d7eb5")
 		(effects
@@ -53646,7 +53646,7 @@
 		)
 	)
 	(gr_text "top -------- signals\nin1 -------- power\n\n  //// CORE ////\n\nin2 -------- gnd\nbot -------- signals"
-		(at 91.122501 133.015001 0)
+		(at 72.297501 125.840001 0)
 		(layer "Dwgs.User")
 		(uuid "cf5a83f0-8fb4-4bd5-9e3e-5266e2409c7c")
 		(effects
@@ -53662,7 +53662,7 @@
 		(layer "Dwgs.User")
 		(uuid "6e37d493-5e34-424a-af7c-584f9906805b")
 		(pts
-			(xy 74.3975 76.14) (xy 74.3975 106.14)
+			(xy 74.397501 75.240002) (xy 74.4025 106.240001)
 		)
 		(height -12.3)
 		(orientation 1)
@@ -53683,8 +53683,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "30"
-			(at 60.9475 91.14 90)
+		(gr_text "31"
+			(at 60.947501 90.740002 90)
 			(layer "Dwgs.User")
 			(uuid "6e37d493-5e34-424a-af7c-584f9906805b")
 			(effects
@@ -53700,7 +53700,7 @@
 		(layer "Dwgs.User")
 		(uuid "b0fc341d-f458-4165-9e57-2c6e41d36eac")
 		(pts
-			(xy 70.902504 79.740001) (xy 135.9025 79.625)
+			(xy 70.902504 79.740001) (xy 135.902499 79.645)
 		)
 		(height -11.1)
 		(orientation 0)
