@@ -7396,6 +7396,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 264.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e12a75f-e3e7-44c9-8399-85ed5a59e6d0")
 		)
@@ -9497,7 +9506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5929f27e-75fa-416e-a38e-13abd09386bf")
-		(property "Reference" "Sp2+1"
+		(property "Reference" "TP3"
 			(at 234.95 81.2799 90)
 			(effects
 				(font
@@ -9549,7 +9558,7 @@
 		(instances
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/557beae8-45dc-49b3-a05f-ac573dd131ad"
-					(reference "Sp2+1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10770,7 +10779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8036b7fe-7ae4-4769-801a-e633826ac0ba")
-		(property "Reference" "MicBias1"
+		(property "Reference" "TP2"
 			(at 144.78 116.8399 90)
 			(effects
 				(font
@@ -10822,7 +10831,7 @@
 		(instances
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/557beae8-45dc-49b3-a05f-ac573dd131ad"
-					(reference "MicBias1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10949,7 +10958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89d7af32-2aa0-41b1-8dfb-75e8fce6eccb")
-		(property "Reference" "Sp2-1"
+		(property "Reference" "TP4"
 			(at 234.95 83.8199 90)
 			(effects
 				(font
@@ -11001,7 +11010,7 @@
 		(instances
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/557beae8-45dc-49b3-a05f-ac573dd131ad"
-					(reference "Sp2-1")
+					(reference "TP4")
 					(unit 1)
 				)
 			)

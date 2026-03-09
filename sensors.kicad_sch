@@ -5427,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C51940130"
+		(property "LCSC Part" "C160390"
 			(at 127 105.41 0)
 			(effects
 				(font
@@ -7087,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "-90"
+		(property "FT Rotation Offset" "180"
 			(at 231.14 101.6 0)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C51940130"
+		(property "LCSC Part" "C160390"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -8944,7 +8944,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C51940130"
+		(property "LCSC Part" "C160390"
 			(at 127 171.45 0)
 			(effects
 				(font
@@ -10493,7 +10493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de11fbc2-2e40-418f-894b-283f8577a51c")
-		(property "Reference" "IMU_IT1"
+		(property "Reference" "TP1"
 			(at 250.19 93.9799 90)
 			(effects
 				(font
@@ -10545,7 +10545,7 @@
 		(instances
 			(project ""
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
-					(reference "IMU_IT1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11314,7 +11314,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C51940130"
+		(property "LCSC Part" "C160390"
 			(at 127 137.16 0)
 			(effects
 				(font

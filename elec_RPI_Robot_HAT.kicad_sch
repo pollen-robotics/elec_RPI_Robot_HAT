@@ -16895,12 +16895,13 @@
 				)
 			)
 		)
-		(property "Value" "THD-20-R"
+		(property "Value" "Female Header 2x20 SMD"
 			(at 130.81 81.8896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Library_Pollen:PinHeader_2x20_P2.54mm_Vertical_with_rasp_HAT_zero_SMD_connector"
@@ -16993,7 +16994,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "90"
 			(at 129.54 107.95 0)
 			(effects
 				(font
@@ -17137,7 +17138,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2977589"
+		(property "LCSC Part" "C2685112"
 			(at 129.54 107.95 0)
 			(effects
 				(font

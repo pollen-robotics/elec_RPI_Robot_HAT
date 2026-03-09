@@ -515,7 +515,7 @@
       "plot": "fab/",
       "pos_files": "fab/",
       "specctra_dsn": "",
-      "step": "fab/elec_RPI_Robot_HAT.step",
+      "step": "fab/ASE01187-A1_elec_RPI_Robot_HAT_SCH.step",
       "svg": "",
       "vrml": ""
     },

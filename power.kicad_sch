@@ -4473,6 +4473,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "90"
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "8e5bab7e-4a75-4d7e-b957-68cf59c86529")
 		)
@@ -4845,6 +4854,15 @@
 			)
 		)
 		(property "Man. Ref." "BAT54SW,115"
+			(at 181.61 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 181.61 114.3 90)
 			(effects
 				(font

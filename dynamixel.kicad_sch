@@ -12113,25 +12113,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
-			(at 209.55 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "'FT Position Offset" ""
-			(at 209.55 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
+		(property "FT Rotation Offset" ""
 			(at 209.55 190.5 90)
 			(effects
 				(font
