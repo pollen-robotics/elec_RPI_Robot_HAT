@@ -2455,6 +2455,17 @@
 			"IO_26" "IO_27"
 		)
 	)
+	(text "ToDo:\n - la position de l'IMU doit être connue\n - attention la zero est sensible aux coupures de courant\n - plus de dyn3 (perte de tension au bout de x moteurs)\n    - mettre des jumpers pour transformer des dyn4 en dyn3"
+		(exclude_from_sim no)
+		(at 63.246 82.804 0)
+		(effects
+			(font
+				(size 2.007 2.007)
+			)
+			(justify left bottom)
+		)
+		(uuid "179bac6f-78fc-421d-8759-ae700511a19a")
+	)
 	(text "Date"
 		(exclude_from_sim no)
 		(at 39.37 38.1 0)
