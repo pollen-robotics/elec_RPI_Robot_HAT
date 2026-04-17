@@ -6082,7 +6082,7 @@
 			(uuid "cd74b715-aa80-43cc-a430-472cecf4c951")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R26")
 					(unit 1)
@@ -6149,7 +6149,7 @@
 			(uuid "55533106-b2f8-44ee-9d6c-beedeae8ec34")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR084")
 					(unit 1)
@@ -6216,7 +6216,7 @@
 			(uuid "2ff1f421-cf65-4eca-a144-d3ff468543dd")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR072")
 					(unit 1)
@@ -6472,7 +6472,7 @@
 			(uuid "21ea94be-1a93-474a-8bef-83f5e65c42ca")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "Q1")
 					(unit 1)
@@ -6539,7 +6539,7 @@
 			(uuid "dcf3e2c7-1acb-44eb-8732-7282b379de8f")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR082")
 					(unit 1)
@@ -6607,7 +6607,7 @@
 			(uuid "3e6cfd1f-1102-46d5-9c0a-5500377c0d31")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR067")
 					(unit 1)
@@ -6673,7 +6673,7 @@
 			(uuid "21d4292f-358d-4ec9-80e7-26ef05867b5d")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR068")
 					(unit 1)
@@ -6875,7 +6875,7 @@
 			(uuid "6aa0da8c-6529-42c6-b293-497f571bb412")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R25")
 					(unit 1)
@@ -7110,7 +7110,7 @@
 			(uuid "5dcd5284-0c97-4bec-9878-e356f9c5db3c")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "J13")
 					(unit 1)
@@ -7176,7 +7176,7 @@
 			(uuid "1c9ca88a-325d-4d3f-8f29-a8513009166b")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR070")
 					(unit 1)
@@ -7427,7 +7427,7 @@
 			(uuid "368e117b-bae0-49e9-8338-b01150cc1bce")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "C18")
 					(unit 1)
@@ -7694,7 +7694,7 @@
 			(uuid "20a79910-d2b4-4bb1-aa48-574cce601d13")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R28")
 					(unit 1)
@@ -7936,7 +7936,7 @@
 			(uuid "66995082-8a87-4a57-ac7f-6d72e88d596a")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "U8")
 					(unit 1)
@@ -8002,7 +8002,7 @@
 			(uuid "e07b2ffe-763c-4dce-86cc-042c94222efa")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR085")
 					(unit 1)
@@ -8068,7 +8068,7 @@
 			(uuid "8b3ed9a5-a77d-416d-9067-bc438c32cc63")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR073")
 					(unit 1)
@@ -8134,7 +8134,7 @@
 			(uuid "283ce290-ac6d-48b8-8768-4d44359314c9")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR066")
 					(unit 1)
@@ -8200,7 +8200,7 @@
 			(uuid "74616811-81d6-4638-94c2-d326bc0eef64")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR083")
 					(unit 1)
@@ -8266,7 +8266,7 @@
 			(uuid "e8e7a9c4-a8a0-42a9-b768-ea0a3fc8be29")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR071")
 					(unit 1)
@@ -8333,7 +8333,7 @@
 			(uuid "331aa790-dc31-4368-8b6b-84a82942bd24")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR091")
 					(unit 1)
@@ -8400,7 +8400,7 @@
 			(uuid "cc764e7f-1494-442d-8da9-0ee65d1e43f3")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR080")
 					(unit 1)
@@ -8650,7 +8650,7 @@
 			(uuid "38788ee9-5e2d-4392-bdce-b5bc7f99ac6c")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "C16")
 					(unit 1)
@@ -8918,7 +8918,7 @@
 			(uuid "fd22dff2-84b6-4553-89e8-bce556cfeab8")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R32")
 					(unit 1)
@@ -9130,7 +9130,7 @@
 			(uuid "1d30d7a4-7284-4a38-a7b1-7950042bb1e3")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "U5")
 					(unit 1)
@@ -9396,7 +9396,7 @@
 			(uuid "51736ea9-f1f3-45a5-bf60-932ab675b070")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "TH1")
 					(unit 1)
@@ -9529,7 +9529,7 @@
 			(uuid "d3c7ceb1-8463-4a04-a413-d3e733790a27")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR074")
 					(unit 1)
@@ -9769,7 +9769,7 @@
 			(uuid "d655b27f-4ab4-406f-ad80-cb68b00ff53d")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "C15")
 					(unit 1)
@@ -9835,7 +9835,7 @@
 			(uuid "e8e5c3c4-8f4c-4266-bb6d-c7bca3ffe61a")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR079")
 					(unit 1)
@@ -9902,7 +9902,7 @@
 			(uuid "d3601dd7-359c-4a38-8b65-e55875a786f5")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR076")
 					(unit 1)
@@ -9968,7 +9968,7 @@
 			(uuid "f44f5c96-78fb-4e7c-bbec-7170b308b9a9")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR089")
 					(unit 1)
@@ -10235,7 +10235,7 @@
 			(uuid "7faaebc7-25da-423d-bef7-2d903a423457")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R27")
 					(unit 1)
@@ -10475,7 +10475,7 @@
 			(uuid "29edd193-38c6-41cf-92a2-f2f95c2eab70")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "C17")
 					(unit 1)
@@ -10923,7 +10923,7 @@
 			(uuid "52f8eea9-ab47-42c3-ae79-76a74472b50d")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "J14")
 					(unit 1)
@@ -10991,7 +10991,7 @@
 			(uuid "9ac6a261-6d8c-443f-a9fe-8368d56dd0f0")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR078")
 					(unit 1)
@@ -11258,7 +11258,7 @@
 			(uuid "ea7eac5d-e7b5-499d-903d-6fc463ff983a")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R31")
 					(unit 1)
@@ -11469,7 +11469,7 @@
 			(uuid "cde24ac6-2110-4912-999e-4db26ce8d405")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "J11")
 					(unit 1)
@@ -11671,7 +11671,7 @@
 			(uuid "5094342e-2bc8-46ff-b1a3-d6c2366ec4d2")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R30")
 					(unit 1)
@@ -11738,7 +11738,7 @@
 			(uuid "554cca39-5c46-4e59-af20-da82f9bd9bbe")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR081")
 					(unit 1)
@@ -11872,7 +11872,7 @@
 			(uuid "c3e5367a-0693-4c12-9b68-180f295b45ec")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR069")
 					(unit 1)
@@ -11939,7 +11939,7 @@
 			(uuid "60c70446-e7b9-4183-82ae-e8f57b6a58e3")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR086")
 					(unit 1)
@@ -12005,7 +12005,7 @@
 			(uuid "2df70cc4-7398-455a-a569-15e7a08d676b")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR077")
 					(unit 1)
@@ -12264,7 +12264,7 @@
 			(uuid "32e7325d-fc8d-4d5d-b0d8-942a76bc5132")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "D4")
 					(unit 1)
@@ -12538,7 +12538,7 @@
 			(uuid "30b21d7e-a1ad-4e8a-a8e5-7c6e4ba24aa3")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "U7")
 					(unit 1)
@@ -12776,7 +12776,7 @@
 			(uuid "4956abd9-9bfd-47fd-b682-277527d75ec6")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R29")
 					(unit 1)
@@ -12978,7 +12978,7 @@
 			(uuid "f052733f-e492-4c28-81f5-33c7381af5ad")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R24")
 					(unit 1)
@@ -13044,7 +13044,7 @@
 			(uuid "4fa21a05-f723-4c28-9d0a-432d3feffdcd")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR075")
 					(unit 1)
@@ -13111,7 +13111,7 @@
 			(uuid "58bca360-a120-43bf-99d5-7428998cc3e1")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR092")
 					(unit 1)
@@ -13394,7 +13394,7 @@
 			(uuid "84e860d6-dd24-4a4c-b9f7-e4fbe5477e98")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "U6")
 					(unit 1)
@@ -13660,7 +13660,7 @@
 			(uuid "faf56d00-ae68-4adf-a31b-56e4bad800bc")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R33")
 					(unit 1)

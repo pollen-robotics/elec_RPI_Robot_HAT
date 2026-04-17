@@ -2455,9 +2455,20 @@
 			"IO_26" "IO_27"
 		)
 	)
-	(text "ToDo:\n - la position de l'IMU doit être connue\n - attention la zero est sensible aux coupures de courant\n - plus de dyn3 (perte de tension au bout de x moteurs)\n    - mettre des jumpers pour transformer des dyn4 en dyn3"
+	(text "[fix] Acc. is at 0x19 I2C address\n[fix] Soft reset of the audio DAC\n[fix] Ideal diode\n[fix] Know position of IMU"
 		(exclude_from_sim no)
-		(at 63.246 82.804 0)
+		(at 87.884 53.34 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "006d2b97-bd4f-4a58-881b-5953648515f9")
+	)
+	(text "ToDo:\n- oscillator is 180 deg (JLC)\n- give access to ID_SD/SC via another Qwiic connector\n- rasp zero 2w is very sensitive to rude shutdowns (SD cards corrupts), a shutdown switch/brown out detector as in RM should be implemented\n- Dyn3 connectors tends to lose voltage, it would be much better if there are more of them, avoiding long chain of motors on a same bus, or here, turning dyn4 into dyn3 with jumpers\n- 10k/1u between the DAC and the amp?\n- wago connector are not fitted to speaker/mic wires (too thin)\n- 2 mics signals + *2* gnd → wago 4\n- missing DC-cut capacitor behind the dual mic/wago connector\n- move DynDir from IO13 to IO17 so one can use the hard RTS of the rasp\n- IMU should be disconnectable (in order to use an external IMU)."
+		(exclude_from_sim no)
+		(at 62.738 134.62 0)
 		(effects
 			(font
 				(size 2.007 2.007)
@@ -2589,7 +2600,7 @@
 	)
 	(text "ToDo:\n - HAT+ marking?"
 		(exclude_from_sim no)
-		(at 102.616 53.086 0)
+		(at 46.482 61.214 0)
 		(effects
 			(font
 				(size 2.007 2.007)
@@ -17595,7 +17606,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H1")
 					(unit 1)
@@ -17778,7 +17789,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID3")
 					(unit 1)
@@ -18360,7 +18371,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID1")
 					(unit 1)
@@ -18609,7 +18620,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "FID2")
 					(unit 1)
@@ -19238,7 +19249,7 @@
 			)
 		)
 		(instances
-			(project "elec_forcathon"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H3")
 					(unit 1)
@@ -19707,7 +19718,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976"
 					(reference "H2")
 					(unit 1)

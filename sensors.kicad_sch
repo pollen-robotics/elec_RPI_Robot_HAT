@@ -1376,6 +1376,18 @@
 		)
 		(uuid "317c7afa-e902-4710-9c77-e537c6e13d77")
 	)
+	(text "I2C add.:\n - acc.: 0x19\n - gyr.: 0x68"
+		(exclude_from_sim no)
+		(at 229.616 135.636 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "3e485e42-7d0f-42af-9040-b823e69a0fb3")
+	)
 	(text "SDA"
 		(exclude_from_sim no)
 		(at 83.312 105.156 0)
@@ -1525,12 +1537,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41acb7d6-3e9d-488a-9d15-2cbc0a28ccca")
-	)
-	(junction
-		(at 204.47 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5739ec15-6354-4e3e-842b-284af7c1ffd7")
 	)
 	(junction
 		(at 106.68 162.56)
@@ -2195,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "405dc5d8-0c79-42eb-9176-759fdae8244b")
+	)
+	(wire
+		(pts
+			(xy 200.66 104.14) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425d4954-133f-4b1d-86e4-77fae4714525")
 	)
 	(wire
 		(pts
@@ -2878,16 +2894,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 104.14) (xy 204.47 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66b4d05-d157-44b5-bbcb-24cef2203396")
-	)
-	(wire
-		(pts
 			(xy 90.17 93.98) (xy 90.17 90.17)
 		)
 		(stroke
@@ -2975,16 +2981,6 @@
 			(type default)
 		)
 		(uuid "d65a6688-e724-4c30-826e-a1a62034c56e")
-	)
-	(wire
-		(pts
-			(xy 204.47 104.14) (xy 204.47 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7651b19-2067-4ce2-8dc1-06a4db24c91e")
 	)
 	(wire
 		(pts
@@ -6293,6 +6289,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c0e7cb0-28b1-4186-9b1f-c06d42f091cd")
+		(property "Reference" "#PWR029"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 196.85 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199be3cf-04b9-452d-a8a6-919db4ab767b")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 118.11 0)
 		(unit 1)
@@ -7172,7 +7235,7 @@
 			(uuid "512df4a6-4465-43ff-bd77-1e0bd551e256")
 		)
 		(instances
-			(project ""
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
 					(reference "U11")
 					(unit 1)
@@ -7829,7 +7892,7 @@
 			(uuid "39e2167b-def5-45ae-93cd-12be81975abb")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
 					(reference "C24")
 					(unit 1)
@@ -9497,7 +9560,7 @@
 			(uuid "79f7b1ae-1009-428d-97fa-7a21e7bb6b7b")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
 					(reference "#PWR0112")
 					(unit 1)
@@ -10006,7 +10069,7 @@
 			(uuid "c7fcf30d-946f-401c-9610-96b89e1c2a29")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
 					(reference "C23")
 					(unit 1)
@@ -10512,7 +10575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 245.11 99.06 0)
 			(effects
 				(font
@@ -10543,7 +10606,7 @@
 			(uuid "f5b20311-6acd-4a76-9738-bef4027b692b")
 		)
 		(instances
-			(project ""
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/51aae2c5-2ebf-4088-ad60-315661d0a581"
 					(reference "TP1")
 					(unit 1)

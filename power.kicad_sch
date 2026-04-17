@@ -477,6 +477,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:BAT54W"
 			(pin_names
 				(offset 1.016)
@@ -1125,8 +1250,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Si2319CDS"
+		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_GSD"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1141,7 +1267,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Si2319CDS"
+			(property "Value" "Q_NMOS_Depletion_GSD"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1150,28 +1276,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1180,7 +1285,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "P-Channel MOSFET"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1189,7 +1294,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1198,7 +1303,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Si2319CDS_0_1"
+			(property "ki_keywords" "NMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NMOS_Depletion_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1225,7 +1339,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -1237,7 +1351,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1249,26 +1363,14 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(circle
@@ -1280,18 +1382,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(polyline
@@ -1342,7 +1432,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1354,7 +1444,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1365,7 +1455,7 @@
 					)
 				)
 			)
-			(symbol "Si2319CDS_1_1"
+			(symbol "Q_NMOS_Depletion_GSD_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1887,6 +1977,16 @@
 		)
 		(uuid "02518527-3037-40f6-8d63-3a67e09b6c3f")
 	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 204.216 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "561ba62e-363b-47bb-a943-9533e3dee3fb")
+	)
 	(text "24V"
 		(exclude_from_sim no)
 		(at 54.61 74.168 0)
@@ -1962,12 +2062,6 @@
 		(uuid "2bacd31d-2a94-417a-9aad-f6a5a3cfa7b4")
 	)
 	(junction
-		(at 149.86 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49cdbf9d-5ad0-4fe4-8520-7b7e698f6e86")
-	)
-	(junction
 		(at 187.96 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2010,28 +2104,40 @@
 		(uuid "9173c537-6b38-4097-80d0-d990dca11bd5")
 	)
 	(junction
-		(at 212.09 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abce7ca2-8f67-4064-93af-37cdf8540251")
-	)
-	(junction
-		(at 160.02 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adea942d-0f3d-48ec-8bed-c37a51551e45")
-	)
-	(junction
 		(at 181.61 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd17a5db-9d91-4fe5-9a3d-140cea039dcb")
 	)
 	(junction
+		(at 215.9 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccbfc07d-bc8b-4226-884f-0ee2a6676405")
+	)
+	(junction
 		(at 144.78 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6d03ed2-9af0-4a97-adfe-8184340229bc")
+	)
+	(junction
+		(at 153.67 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e95d0e4f-3b37-4597-afaa-3889b66089bc")
+	)
+	(junction
+		(at 158.75 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecaee9e6-78b0-4f18-8154-651e89bf801a")
+	)
+	(junction
+		(at 215.9 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2aac0fd-2e2e-4707-81c7-c60a034b91ed")
 	)
 	(no_connect
 		(at 190.5 120.65)
@@ -2059,7 +2165,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 149.86 97.79)
+			(xy 215.9 114.3) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fea4051-eb36-4f75-a9af-32f358b14de8")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2215,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 160.02 97.79)
+			(xy 158.75 97.79) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d0de8e-f497-4ad3-a705-0bfd8f4e6a30")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 158.75 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2139,6 +2265,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 118.11) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f716921-505f-404b-b42b-683e7c6a5db6")
+	)
+	(wire
+		(pts
 			(xy 212.09 115.57) (xy 212.09 97.79)
 		)
 		(stroke
@@ -2146,16 +2282,6 @@
 			(type default)
 		)
 		(uuid "34423628-e8e5-4ea9-ab16-a5f398107ed6")
-	)
-	(wire
-		(pts
-			(xy 149.86 97.79) (xy 160.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d824e6-81dd-44e9-bfab-1bba579f064f")
 	)
 	(wire
 		(pts
@@ -2169,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 105.41) (xy 160.02 110.49)
+			(xy 158.75 105.41) (xy 158.75 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2199,6 +2325,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 97.79) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481fd84b-5181-493a-9871-dc506ad03a5f")
+	)
+	(wire
+		(pts
 			(xy 101.6 102.87) (xy 101.6 97.79)
 		)
 		(stroke
@@ -2206,6 +2342,16 @@
 			(type default)
 		)
 		(uuid "49af1d72-daa8-415e-8dc3-43fc27da1b27")
+	)
+	(wire
+		(pts
+			(xy 153.67 97.79) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea54129-9e3d-4e1d-b5aa-2970a042135b")
 	)
 	(wire
 		(pts
@@ -2229,7 +2375,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 149.86 110.49)
+			(xy 215.9 97.79) (xy 220.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6204139b-1978-4c79-a621-3bd1e9c03f14")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 153.67 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 97.79) (xy 220.98 97.79)
+			(xy 212.09 97.79) (xy 215.9 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2289,16 +2445,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 97.79) (xy 181.61 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85741eec-b819-4702-9f47-7279fd246da4")
-	)
-	(wire
-		(pts
 			(xy 73.66 95.25) (xy 73.66 97.79)
 		)
 		(stroke
@@ -2306,16 +2452,6 @@
 			(type default)
 		)
 		(uuid "88c5f68e-047f-472c-86d8-ebbed8997a26")
-	)
-	(wire
-		(pts
-			(xy 212.09 118.11) (xy 212.09 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9364013d-c16f-4930-80cd-32232ec89e63")
 	)
 	(wire
 		(pts
@@ -2349,6 +2485,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 129.54) (xy 198.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55593c3-f846-4098-ba27-7aede6bb9da4")
+	)
+	(wire
+		(pts
 			(xy 134.62 97.79) (xy 137.16 97.79)
 		)
 		(stroke
@@ -2369,13 +2515,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 149.86 97.79)
+			(xy 144.78 97.79) (xy 153.67 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae91155e-cbf9-40fb-bd72-e1450b901f36")
+	)
+	(wire
+		(pts
+			(xy 215.9 127) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b282fc-a953-41f6-ac37-e6a378ea41d6")
 	)
 	(wire
 		(pts
@@ -2449,7 +2605,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 118.11) (xy 212.09 118.11)
+			(xy 205.74 118.11) (xy 215.9 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4269,7 +4425,7 @@
 			(uuid "4950510a-8437-4bce-949d-be54a79ad9dd")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#PWR099")
 					(unit 1)
@@ -4335,7 +4491,7 @@
 			(uuid "2cfc7dac-1d9c-4877-9ae4-ee0657095e80")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#PWR0102")
 					(unit 1)
@@ -4401,7 +4557,7 @@
 			(uuid "eaa1cdfb-5aad-49ff-9c43-e5cf5fadf5db")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#FLG04")
 					(unit 1)
@@ -4501,7 +4657,7 @@
 			(uuid "2ae01220-82fe-49dd-8c64-59de865ab5b5")
 		)
 		(instances
-			(project ""
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "U10")
 					(unit 1)
@@ -4706,9 +4862,250 @@
 			(uuid "123bb5e0-6470-4de1-8c8a-f54a7b617b9c")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 215.9 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3db670-f199-408c-b66a-1108b7a1fd96")
+		(property "Reference" "C39"
+			(at 222.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 6V3"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capa 0402"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man." ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Man. Ref." ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Length" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Width" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "420963dd-b0d1-4147-ad53-ae93caa17f43")
+		)
+		(pin "2"
+			(uuid "4be7d5cb-a147-48bc-bc0e-1b0326052629")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4773,7 +5170,7 @@
 			(uuid "32ce1750-c32e-437d-866d-03f4d3e702a5")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#PWR098")
 					(unit 1)
@@ -4881,7 +5278,7 @@
 			(uuid "c5805a43-8ba2-4765-9d95-92c9b6d350d0")
 		)
 		(instances
-			(project ""
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "D1")
 					(unit 1)
@@ -4945,7 +5342,7 @@
 			(uuid "6da0e29a-78b5-49af-a587-17317b584aec")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#FLG02")
 					(unit 1)
@@ -5159,7 +5556,7 @@
 			(uuid "b457366e-9144-49dc-8981-be9a795148a9")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "U9")
 					(unit 1)
@@ -5354,7 +5751,7 @@
 			(uuid "83247874-08d2-492b-b14e-ff39444b7200")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "L4")
 					(unit 1)
@@ -5364,8 +5761,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 160.02 102.87 0)
-		(mirror y)
+		(at 158.75 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5373,7 +5769,7 @@
 		(dnp no)
 		(uuid "8ed50c9e-70e6-4ad3-ae4a-1cc57f925fc0")
 		(property "Reference" "C22"
-			(at 158.75 100.33 0)
+			(at 160.02 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,16 +5778,17 @@
 			)
 		)
 		(property "Value" "22u 6V3"
-			(at 163.83 105.41 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5806,7 @@
 			)
 		)
 		(property "Description" "Capa 0603"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5815,7 @@
 			)
 		)
 		(property "Length" "1.6"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5824,7 @@
 			)
 		)
 		(property "Width" "0.9"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5833,7 @@
 			)
 		)
 		(property "Man." "Murata"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5842,7 @@
 			)
 		)
 		(property "Man. Ref." "GRM188R61A226ME15D"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5851,7 @@
 			)
 		)
 		(property "LCSC Part" "C84419"
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5860,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +5869,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5878,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +5887,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5896,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +5905,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5914,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5923,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5932,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 160.02 102.87 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5947,7 @@
 			(uuid "d5bcbf5f-11fe-4f19-89a4-a5f6230d068e")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "C22")
 					(unit 1)
@@ -5559,23 +5956,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Si2319CDS")
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
 		(at 198.12 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ab9482de-c9be-4bf0-8183-030260f60ba4")
+		(fields_autoplaced yes)
+		(uuid "988dc998-a0db-43a1-8867-b61a4cf99d49")
 		(property "Reference" "Q2"
-			(at 198.12 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Si2319CDS"
 			(at 198.12 93.98 90)
 			(effects
 				(font
@@ -5583,28 +5973,16 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 200.025 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
-			(at 201.93 95.25 0)
+		(property "Value" "SI2312CDS-T1-GE3"
+			(at 198.12 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "-4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 198.12 100.33 0)
 			(effects
 				(font
@@ -5613,7 +5991,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C10487"
+		(property "Datasheet" "~"
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET gate/source/drain"
+			(at 198.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C142518"
 			(at 198.12 100.33 90)
 			(effects
 				(font
@@ -5623,16 +6019,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7188e271-6527-41b3-938c-53f9df62261f")
-		)
-		(pin "2"
-			(uuid "94f031d1-04e4-42fc-bfdc-af90aaef035d")
+			(uuid "324e55be-966c-4ef1-a9ea-c267836fc2bf")
 		)
 		(pin "3"
-			(uuid "a787a742-eaca-4d1c-b2d6-34d4d12cc3b3")
+			(uuid "3e46c211-61bc-46d8-b920-0541172bc164")
+		)
+		(pin "2"
+			(uuid "de3a3380-8bfa-4b42-867f-7095bb11fe9b")
 		)
 		(instances
-			(project ""
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "Q2")
 					(unit 1)
@@ -5641,8 +6037,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 215.9 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b78381e0-d350-46d9-bce3-22d3b553a97c")
+		(property "Reference" "R8"
+			(at 218.44 110.4899 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 218.44 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906860"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be6fd648-e5ee-42e7-86ad-3c3680e038d5")
+		)
+		(pin "1"
+			(uuid "cefb8fb9-6f04-4242-8c83-95fb37461b32")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 149.86 110.49 0)
+		(at 153.67 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5651,7 +6126,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7f4421d-c069-48ec-8fe6-c36e8d9a2697")
 		(property "Reference" "#PWR0100"
-			(at 149.86 116.84 0)
+			(at 153.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +6135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 115.57 0)
+			(at 153.67 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +6144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 110.49 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +6153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 110.49 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +6162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 110.49 0)
+			(at 153.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +6174,7 @@
 			(uuid "5a2857f7-adbd-4fdb-af5a-edab5aa5c506")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#PWR0100")
 					(unit 1)
@@ -5766,7 +6241,7 @@
 			(uuid "12bc89c5-cef9-4ee6-b2de-2a4098df5aad")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#PWR097")
 					(unit 1)
@@ -5776,7 +6251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 110.49 0)
+		(at 158.75 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5785,7 +6260,7 @@
 		(fields_autoplaced yes)
 		(uuid "d639011e-31e9-4393-8c5a-b63009af328b")
 		(property "Reference" "#PWR0101"
-			(at 160.02 116.84 0)
+			(at 158.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +6269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 115.57 0)
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,7 +6278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 110.49 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +6287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 110.49 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +6296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 110.49 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +6308,7 @@
 			(uuid "27ac51df-1f39-4562-8bbb-1b29398e0a08")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#PWR0101")
 					(unit 1)
@@ -6094,7 +6569,7 @@
 			(uuid "188f49bc-4bd3-44d3-9ca2-dfb54c5e48d1")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "C20")
 					(unit 1)
@@ -6159,7 +6634,7 @@
 			(uuid "60671946-b611-42a0-a55f-4b294fe4cdf9")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#FLG03")
 					(unit 1)
@@ -6169,7 +6644,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 149.86 102.87 0)
+		(at 153.67 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6178,7 +6653,7 @@
 		(dnp no)
 		(uuid "f66bcc40-78e1-4acb-be4e-0e7ad21e821f")
 		(property "Reference" "C21"
-			(at 148.59 100.33 0)
+			(at 152.4 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6662,7 @@
 			)
 		)
 		(property "Value" "22u 6V3"
-			(at 153.67 105.41 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6671,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6689,7 @@
 			)
 		)
 		(property "Description" "Capa 0603"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6223,7 +6698,7 @@
 			)
 		)
 		(property "Length" "1.6"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6232,7 +6707,7 @@
 			)
 		)
 		(property "Width" "0.9"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6241,7 +6716,7 @@
 			)
 		)
 		(property "Man." "Murata"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6250,7 +6725,7 @@
 			)
 		)
 		(property "Man. Ref." "GRM188R61A226ME15D"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6259,7 +6734,7 @@
 			)
 		)
 		(property "LCSC Part" "C84419"
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6743,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6752,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6761,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6770,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6779,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6788,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6797,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6806,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6815,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 149.86 102.87 0)
+			(at 153.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6830,7 @@
 			(uuid "e30f0aac-7a58-42b9-955d-60a240b345b6")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "C21")
 					(unit 1)
@@ -6421,7 +6896,7 @@
 			(uuid "4d11bc56-3352-4cc9-9b62-5d24cfb9e542")
 		)
 		(instances
-			(project "elec_RPI_Robot_Board_CMx_Carrier"
+			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
 					(reference "#PWR096")
 					(unit 1)
