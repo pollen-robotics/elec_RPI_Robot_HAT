@@ -2522,16 +2522,6 @@
 		)
 		(uuid "470f1f2a-e595-4c22-a43a-7128ed7c1814")
 	)
-	(text "DynUART_RTS"
-		(exclude_from_sim no)
-		(at 47.752 88.392 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f34f6a84-adb1-4799-be28-e094c78dd193")
-	)
 	(text_box "Dynamixel"
 		(exclude_from_sim no)
 		(at 29.21 25.4 0)
@@ -2597,6 +2587,12 @@
 		(uuid "5410a55d-2588-4d60-93d5-c07ffbabf9ba")
 	)
 	(junction
+		(at 160.02 318.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "624d63a9-66cb-45dc-8955-6ba85212e085")
+	)
+	(junction
 		(at 209.55 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2615,22 +2611,10 @@
 		(uuid "8d647259-1613-4b40-9139-ca6ec8c0ec0b")
 	)
 	(junction
-		(at 146.05 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98ed34ed-bd9b-4265-93e3-d311c0e204f2")
-	)
-	(junction
 		(at 234.95 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e8bafe8-80cc-4522-9c9b-397115f7fc3d")
-	)
-	(junction
-		(at 160.02 321.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad6b9609-7637-4077-bf89-ad1e0c7ce4c7")
 	)
 	(junction
 		(at 240.03 180.34)
@@ -2668,6 +2652,12 @@
 		(color 0 0 0 0)
 		(uuid "f545cf7c-de3d-4289-9944-c4b9f45e3e5f")
 	)
+	(junction
+		(at 147.32 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd2df1e1-46cc-45b1-83ab-40845f945e7e")
+	)
 	(bus_entry
 		(at 38.1 323.85)
 		(size 2.54 2.54)
@@ -2685,15 +2675,6 @@
 			(type default)
 		)
 		(uuid "542aa3b5-132e-48fa-a201-dd4c04ee858e")
-	)
-	(bus_entry
-		(at 38.1 88.9)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "631bcb6d-4296-45f7-9810-513ab3d708f6")
 	)
 	(bus_entry
 		(at 38.1 95.25)
@@ -2716,16 +2697,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 74.93) (xy 146.05 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0140ae0e-4c01-413a-b287-6b20d848efa8")
-	)
-	(wire
-		(pts
 			(xy 152.4 180.34) (xy 189.23 180.34)
 		)
 		(stroke
@@ -2743,6 +2714,16 @@
 			(type default)
 		)
 		(uuid "08458154-b363-46d9-876d-cc94456f34ff")
+	)
+	(wire
+		(pts
+			(xy 160.02 318.77) (xy 162.56 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084d7371-e5fc-4932-a440-964ede419bc7")
 	)
 	(wire
 		(pts
@@ -2866,13 +2847,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 321.31) (xy 162.56 321.31)
+			(xy 147.32 318.77) (xy 147.32 321.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2affdb01-7308-442e-aa51-a4f1f0c08b36")
+		(uuid "2b96ecf5-292e-43e0-be12-757f14f203f5")
 	)
 	(wire
 		(pts
@@ -2903,16 +2884,6 @@
 			(type default)
 		)
 		(uuid "34e7e6bf-e4eb-4afe-980e-2a6cb64161b4")
-	)
-	(wire
-		(pts
-			(xy 93.98 321.31) (xy 160.02 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3507d315-c32a-4767-848b-523752b92cd8")
 	)
 	(wire
 		(pts
@@ -2996,6 +2967,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 334.01) (xy 160.02 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4458fd8b-13f4-4674-a0e4-a1a461643284")
+	)
+	(wire
+		(pts
 			(xy 163.83 300.99) (xy 163.83 302.26)
 		)
 		(stroke
@@ -3006,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 321.31) (xy 88.9 321.31)
+			(xy 67.31 321.31) (xy 147.32 321.31)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 134.62 74.93)
+			(xy 120.65 74.93) (xy 167.64 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3083,6 +3064,16 @@
 			(type default)
 		)
 		(uuid "4e98cfe8-00b3-49f4-a6b1-e9115bbce56a")
+	)
+	(wire
+		(pts
+			(xy 154.94 318.77) (xy 160.02 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507f1891-93e9-4d2a-b575-426dfa3e207b")
 	)
 	(wire
 		(pts
@@ -3226,23 +3217,13 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 88.9) (xy 38.1 85.09)
+			(xy 38.1 85.09) (xy 38.1 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f3ca255-9980-432f-8db8-306293998fb2")
-	)
-	(wire
-		(pts
-			(xy 63.5 91.44) (xy 146.05 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f568718-72bb-4521-bf39-965b3a4358c8")
 	)
 	(wire
 		(pts
@@ -3323,16 +3304,6 @@
 			(type default)
 		)
 		(uuid "86471a0c-dd0b-4d48-b2d0-9b791dd7138f")
-	)
-	(wire
-		(pts
-			(xy 146.05 91.44) (xy 146.05 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8951da47-a212-4ddf-aa26-947eb2dd08ee")
 	)
 	(wire
 		(pts
@@ -3496,16 +3467,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 318.77) (xy 160.02 318.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b45c4671-94bf-4e9b-8320-d3ebbcfecf41")
-	)
-	(wire
-		(pts
 			(xy 245.11 342.9) (xy 231.14 342.9)
 		)
 		(stroke
@@ -3523,6 +3484,16 @@
 			(type default)
 		)
 		(uuid "b79de2e3-cd7b-4e9a-88df-b5ef7b81d352")
+	)
+	(wire
+		(pts
+			(xy 147.32 321.31) (xy 162.56 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d77dae-1068-4762-ba5d-3ba2d79a6e44")
 	)
 	(wire
 		(pts
@@ -3636,13 +3607,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 91.44) (xy 58.42 91.44)
+			(xy 160.02 318.77) (xy 160.02 328.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6b5d664-c5fe-4bae-831a-b1953664c828")
+		(uuid "d3743a68-8042-4e9f-be3d-e04442d1d281")
 	)
 	(wire
 		(pts
@@ -3666,13 +3637,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 74.93) (xy 167.64 74.93)
+			(xy 149.86 318.77) (xy 147.32 318.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d928b050-cf32-4739-8545-4af7c3fba8c3")
+		(uuid "dbc40661-d0c3-4d82-bd00-c0f795123970")
 	)
 	(wire
 		(pts
@@ -3683,16 +3654,6 @@
 			(type default)
 		)
 		(uuid "ddef19ed-f92c-439c-8193-a9ea160abe11")
-	)
-	(wire
-		(pts
-			(xy 160.02 318.77) (xy 160.02 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de305839-e099-4231-a6de-cf1657e9cceb")
 	)
 	(wire
 		(pts
@@ -3813,16 +3774,6 @@
 			(type default)
 		)
 		(uuid "f808437b-fa0c-4d31-acd9-ebd3a2c8b3bd")
-	)
-	(bus
-		(pts
-			(xy 38.1 95.25) (xy 38.1 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3d8187-d37a-4465-89e4-83c76a046e35")
 	)
 	(wire
 		(pts
@@ -5772,27 +5723,17 @@
 		(uuid "3d0c5b97-203b-438e-9a02-8885a758876e")
 	)
 	(label "Dynamixel_dir"
-		(at 77.47 321.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47707f41-6084-4230-9371-5a89e66f47e8")
-	)
-	(label "IO_13"
-		(at 41.91 91.44 0)
+		(at 67.31 321.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7d67c2a0-a9bb-4405-963f-34ede3ef639d")
+		(uuid "47707f41-6084-4230-9371-5a89e66f47e8")
 	)
 	(label "Dynamixel_dir"
-		(at 66.04 91.44 0)
+		(at 134.62 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6085,6 +6026,73 @@
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 337.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07ea623b-9e9c-4397-9126-98d0f2f55d2b")
+		(property "Reference" "#PWR095"
+			(at 160.02 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d96d24-4957-462b-a110-f81626d36cc3")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6676,208 +6684,6 @@
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 321.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d3dbe60-cded-490d-9ee0-292ccb7bdc84")
-		(property "Reference" "R25"
-			(at 88.392 318.77 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 94.742 318.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 91.44 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 91.44 321.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17168"
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 91.44 321.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3e22dde-a4be-4ca6-b8a2-3b8a652b8526")
-		)
-		(pin "1"
-			(uuid "6aa0da8c-6529-42c6-b293-497f571bb412")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10932,6 +10738,208 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 152.4 318.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3577d7d-50b6-45e7-bdf3-546cac2c7164")
+		(property "Reference" "R40"
+			(at 148.59 317.5 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 155.956 317.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 152.4 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 152.4 318.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7948c7f7-a93a-4236-a465-3043a18928dd")
+		)
+		(pin "1"
+			(uuid "25d80860-3d6e-48c0-b2d3-1cd751148b24")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 245.11 0)
 		(mirror y)
@@ -11478,208 +11486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7ba48a5-1b20-4956-8d4d-1ce9d546fa37")
-		(property "Reference" "R30"
-			(at 134.112 72.39 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 140.462 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 137.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17168"
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 137.16 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "146b9b6d-2691-49e7-a34f-d236b22736c5")
-		)
-		(pin "1"
-			(uuid "5094342e-2bc8-46ff-b1a3-d6c2366ec4d2")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 157.48 245.11 0)
 		(unit 1)
@@ -11741,6 +11547,208 @@
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 331.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ca5d98d3-0310-4770-8651-7ab2fe33d127")
+		(property "Reference" "R41"
+			(at 155.956 333.502 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "DNP-0R"
+			(at 154.178 329.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.02 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Rating" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 160.02 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "005cdc12-d29f-4ca4-b0f9-c2bf322365a8")
+		)
+		(pin "1"
+			(uuid "a9a94a73-d3d2-4f7f-9344-d9fb123f74b7")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -12779,208 +12787,6 @@
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 60.96 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ed7d1795-2e95-4170-83db-ddd8b0bc9b80")
-		(property "Reference" "R24"
-			(at 56.896 87.63 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "DNP-0R"
-			(at 64.008 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 60.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 60.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C17168"
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 60.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd014f76-2c73-4698-9f15-023ad05e0da0")
-		)
-		(pin "1"
-			(uuid "f052733f-e492-4c28-81f5-33c7381af5ad")
-		)
-		(instances
-			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/4c364cbe-d7af-466c-9311-a9def46da3c7"
-					(reference "R24")
 					(unit 1)
 				)
 			)
