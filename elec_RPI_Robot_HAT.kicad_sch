@@ -2594,7 +2594,7 @@
 		)
 		(uuid "431b89f6-ffc2-41ab-b0c5-a329f18026f2")
 	)
-	(text "Cabled buses on Raspberry PIs\n - PI zero 2W:\n     - I2C0 (pin 27/28 ID_SD/C): HAT identification (reserved)\n     - I2C1 (pin 2/3 SDA/SCL): IMU + Audio + Stemma/QT\n - PI 4:\n     - same I2C0/1\n     - I2C4 (pin 8/9 SDA/SCL): Stemma/QT\n     - I2C5 (pin 10/11 SDA/SCL): Stemma/QT\n - PI 5:\n     - same I2C0/1\n     - I2C2 (pin 4/5 SDA/SCL): Stemma/QT"
+	(text "Cabled buses on Raspberry PIs\n - PI zero 2W:\n     - I2C0 (pin 27/28 ID_SD/C): HAT identification (reserved)\n     - I2C1 (pin 2/3 SDA/SCL): IMU + Audio + Stemma/QT\n - PI 4:\n     - same I2C0/1\n     - I2C3 (pin 7/29 SDA/SCL): Stemma/QT\n     - I2C4 (pin 8/9 SDA/SCL): Stemma/QT\n     - I2C5 (pin 10/11 SDA/SCL): Stemma/QT\n - PI 5:\n     - same I2C0/1\n     - I2C2 (pin 4/5 SDA/SCL): Stemma/QT"
 		(exclude_from_sim no)
 		(at 181.102 57.912 0)
 		(effects
@@ -2740,6 +2740,17 @@
 			)
 		)
 		(uuid "d926fcc6-8147-4846-9693-66c545e816c8")
+	)
+	(text "ToDo:\n - ERROR: 3v3 is missing on J8, R38/39"
+		(exclude_from_sim no)
+		(at 51.054 111.252 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "e59f7369-387d-4464-b9e8-adaa8636f49c")
 	)
 	(text "SN"
 		(exclude_from_sim no)
