@@ -7498,7 +7498,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 179.07 78.74 90)
 			(effects
 				(font
@@ -7665,7 +7665,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 59.69 133.35 90)
 			(effects
 				(font
@@ -7768,7 +7768,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -8349,7 +8349,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 245.11 138.43 90)
 			(effects
 				(font
@@ -8930,7 +8930,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -9727,7 +9727,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 228.6 21.59 90)
 			(effects
 				(font
@@ -10478,7 +10478,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 194.31 58.42 0)
 			(effects
 				(font
@@ -10957,7 +10957,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 215.9 29.21 0)
 			(effects
 				(font
@@ -11036,7 +11036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -12363,7 +12363,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 59.69 120.65 90)
 			(effects
 				(font
@@ -14075,7 +14075,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 224.79 21.59 90)
 			(effects
 				(font
@@ -14388,7 +14388,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 196.85 102.87 90)
 			(effects
 				(font
@@ -14934,7 +14934,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 59.69 107.95 90)
 			(effects
 				(font
@@ -16642,7 +16642,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 59.69 147.32 90)
 			(effects
 				(font
@@ -17509,7 +17509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 179.07 83.82 90)
 			(effects
 				(font
@@ -17983,7 +17983,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 218.44 59.69 0)
 			(effects
 				(font

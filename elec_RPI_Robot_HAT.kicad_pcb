@@ -1132,7 +1132,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2100,7 +2100,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5600,7 +5600,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7177,7 +7177,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7331,7 +7331,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25333,7 +25333,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -27481,7 +27481,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28053,7 +28053,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30749,7 +30749,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP-10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "2cea8057-e39c-4c15-b904-868a680342d4")
@@ -30843,7 +30843,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31057,7 +31057,7 @@
 		(path "/e8294970-1106-4a45-8dd7-94df57cd0080")
 		(sheetname "/")
 		(sheetfile "elec_RPI_Robot_HAT.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -31199,7 +31199,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31893,7 +31893,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP-10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "287cc191-0753-42bb-b8c6-4d370d3d8dcf")
@@ -31987,7 +31987,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32201,7 +32201,7 @@
 		(path "/21322778-aabe-4aaa-b5f7-b0e1763fd37a")
 		(sheetname "/")
 		(sheetfile "elec_RPI_Robot_HAT.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -33431,7 +33431,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35911,7 +35911,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36033,7 +36033,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "DNP-100n"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "3ed1bb13-ea99-4bc6-9c18-148fd4a5b4c9")
@@ -36141,7 +36141,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36355,7 +36355,7 @@
 		(path "/a43b6ab9-ec9f-488c-b319-9e44a03a82d7")
 		(sheetname "/")
 		(sheetfile "elec_RPI_Robot_HAT.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
@@ -38969,7 +38969,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39824,7 +39824,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41220,7 +41220,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41380,7 +41380,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C14445"
+		(property "LCSC Part" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43128,7 +43128,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "CAT24C32HU4"
+		(property "Value" "DNP-CAT24C32HU4"
 			(at 0 -5.5 90)
 			(layer "B.Fab")
 			(uuid "2c468ebe-d7ec-417e-b851-4e08e235d115")
@@ -43166,7 +43166,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C233772"
+		(property "LCSC Part" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43184,7 +43184,7 @@
 		(path "/4010e628-67d6-439a-90bf-9ff3ce408565")
 		(sheetname "/")
 		(sheetfile "elec_RPI_Robot_HAT.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.15 1.52)
 			(end -1.15 -1.53)
@@ -46720,7 +46720,7 @@
 				(justify mirror)
 			)
 		)
-		(property "FT Rotation Offset" "180"
+		(property "FT Rotation Offset" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -56919,6 +56919,120 @@
 			(at 103.402502 67.490001 0)
 			(layer "Dwgs.User")
 			(uuid "b0fc341d-f458-4165-9e57-2c6e41d36eac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "13d31c57-4d55-4a85-a984-45d99c94cae0")
+		(pts
+			(xy 89.4275 78.37) (xy 74.3925 79.645)
+		)
+		(height -6.529999)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "15,035"
+			(at 81.91 70.690001 0)
+			(layer "Cmts.User")
+			(uuid "13d31c57-4d55-4a85-a984-45d99c94cae0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "7715736a-e9c6-4b29-9bd2-88ed984fc714")
+		(pts
+			(xy 86.8875 78.37) (xy 74.3925 79.645)
+		)
+		(height -4.329999)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "12,495"
+			(at 80.64 72.890001 0)
+			(layer "Cmts.User")
+			(uuid "7715736a-e9c6-4b29-9bd2-88ed984fc714")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Cmts.User")
+		(uuid "94dadce7-bacf-447e-b6b2-6aac475a1f5b")
+		(pts
+			(xy 86.8875 78.37) (xy 74.3925 79.645)
+		)
+		(height -19.289999)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "1,275"
+			(at 66.447501 79.0075 90)
+			(layer "Cmts.User")
+			(uuid "94dadce7-bacf-447e-b6b2-6aac475a1f5b")
 			(effects
 				(font
 					(size 1 1)

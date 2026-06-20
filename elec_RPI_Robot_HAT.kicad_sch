@@ -2455,7 +2455,7 @@
 			"IO_26" "IO_27"
 		)
 	)
-	(text "[fix] Acc. is at 0x19 I2C address\n[fix] Soft reset of the audio DAC\n[fix] Ideal diode\n[fix] Know position of IMU\n[fix] Dynamixel_RTS is now on IO_17\n[added] IMU can be disconnected\n[added] IMU_IT is cabled\n[added] Access to I2C0\n[added] Switch off detection"
+	(text "[fixed] Acc. is at 0x19 I2C address\n[fixed] Soft reset of the audio DAC\n[fixed] Ideal diode\n[fixed] Know position of IMU\n[update] Dynamixel_dir is based on Tx\n[added] IMU can be disconnected\n[added] IMU_IT is cabled\n[added] Access to I2C0\n[added] Switch off detection"
 		(exclude_from_sim no)
 		(at 93.218 75.438 0)
 		(effects
@@ -2604,6 +2604,17 @@
 			(justify left bottom)
 		)
 		(uuid "573da85b-985d-4719-aad6-0916966dd1a9")
+	)
+	(text "ERROR on B1:\n - MOS transistor of the ideal diode is reversed (source/drain). \n   It runs as is but it does not protect the DCDC when USB-powered"
+		(exclude_from_sim no)
+		(at 57.658 120.396 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c84b2c8-cc80-433e-9f91-c4650b087010")
 	)
 	(text "EB"
 		(exclude_from_sim no)
@@ -17580,7 +17591,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "21322778-aabe-4aaa-b5f7-b0e1763fd37a")
 		(property "Reference" "R10"
 			(at 73.152 160.782 0)
@@ -17590,8 +17601,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 73.406 157.48 0)
+		(property "Value" "DNP-10k"
+			(at 76.454 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17661,7 +17672,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 77.47 160.02 90)
 			(effects
 				(font
@@ -17818,7 +17829,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4010e628-67d6-439a-90bf-9ff3ce408565")
 		(property "Reference" "U4"
 			(at 50.8 166.37 0)
@@ -17829,7 +17840,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CAT24C32HU4"
+		(property "Value" "DNP-CAT24C32HU4"
 			(at 70.104 179.324 0)
 			(effects
 				(font
@@ -17865,7 +17876,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C233772"
+		(property "LCSC Part" ""
 			(at 55.88 172.72 0)
 			(effects
 				(font
@@ -18478,7 +18489,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a43b6ab9-ec9f-488c-b319-9e44a03a82d7")
 		(property "Reference" "C25"
 			(at 68.072 156.464 0)
@@ -18489,7 +18500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "DNP-100n"
 			(at 69.342 160.274 0)
 			(effects
 				(font
@@ -18570,7 +18581,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" ""
 			(at 63.5 158.75 0)
 			(effects
 				(font
@@ -19107,7 +19118,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e8294970-1106-4a45-8dd7-94df57cd0080")
 		(property "Reference" "R11"
 			(at 73.152 162.56 0)
@@ -19117,7 +19128,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP-10k"
 			(at 77.978 161.544 0)
 			(effects
 				(font
@@ -19189,7 +19200,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 81.28 160.02 90)
 			(effects
 				(font
