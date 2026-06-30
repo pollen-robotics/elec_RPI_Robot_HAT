@@ -5,8 +5,8 @@
 	(uuid "bef4bca7-0338-4fd8-bbfc-01516de5714c")
 	(paper "A4")
 	(title_block
-		(title "RPI Robot Board — CMx Carrier")
-		(date "2026-04-27")
+		(title "elec RPI Robot HAT")
+		(date "2026-05-06")
 		(rev "B1")
 		(company "Pollen Robotics / Hugging Face")
 	)
@@ -4742,11 +4742,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4950510a-8437-4bce-949d-be54a79ad9dd")
+			(uuid "06893763-1b41-428e-9231-e551a8c685f1")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR099")
 					(unit 1)
 				)
@@ -4808,11 +4808,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "2cfc7dac-1d9c-4877-9ae4-ee0657095e80")
+			(uuid "edb11152-5223-4fc0-8a5b-0ab941d38d0e")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR0102")
 					(unit 1)
 				)
@@ -4875,11 +4875,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaa1cdfb-5aad-49ff-9c43-e5cf5fadf5db")
+			(uuid "0afa0b04-298e-4c42-942c-58239c575406")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#FLG04")
 					(unit 1)
 				)
@@ -4960,26 +4960,26 @@
 			)
 		)
 		(pin "3"
-			(uuid "8e5bab7e-4a75-4d7e-b957-68cf59c86529")
+			(uuid "fcb45e28-13ad-4259-93d3-291408ef461f")
 		)
 		(pin "4"
-			(uuid "2c9ebd4f-94bb-4fc2-bdc0-f78385deffef")
+			(uuid "465a83c4-5181-4dc1-882b-bf229771a2a2")
 		)
 		(pin "6"
-			(uuid "d2e2e896-1183-4aa1-8adb-59fcea17de0b")
+			(uuid "f964b4df-7802-4674-afb4-a9b82ff78491")
 		)
 		(pin "2"
-			(uuid "8c05a190-efb2-4aa9-9028-84094efe7645")
+			(uuid "ff800b67-748e-4581-a978-06a2c9ff0129")
 		)
 		(pin "5"
-			(uuid "285446ff-1b20-4bb5-983a-24be892e2a7e")
+			(uuid "831ace80-7080-4b58-9ab4-b26935f878a5")
 		)
 		(pin "1"
-			(uuid "2ae01220-82fe-49dd-8c64-59de865ab5b5")
+			(uuid "cb59a098-8684-4a51-8179-23c6fa1523c5")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "U10")
 					(unit 1)
 				)
@@ -5177,14 +5177,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a09f48bc-fecd-42b2-9380-bf542bfeb797")
+			(uuid "c9ed0a16-41d0-4f64-8fc8-0950b5b882a4")
 		)
 		(pin "2"
-			(uuid "123bb5e0-6470-4de1-8c8a-f54a7b617b9c")
+			(uuid "2305aa82-567e-49af-b416-dda0312c019c")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "C19")
 					(unit 1)
 				)
@@ -5418,14 +5418,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "420963dd-b0d1-4147-ad53-ae93caa17f43")
+			(uuid "59a7b8e3-5415-4213-972d-a52d8a90d91b")
 		)
 		(pin "2"
-			(uuid "4be7d5cb-a147-48bc-bc0e-1b0326052629")
+			(uuid "a9652baa-1391-429e-bf31-58395ded7859")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "C39")
 					(unit 1)
 				)
@@ -5488,11 +5488,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "32ce1750-c32e-437d-866d-03f4d3e702a5")
+			(uuid "34da38f7-68a1-4338-8442-1b127ade9c01")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR098")
 					(unit 1)
 				)
@@ -5590,17 +5590,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "d65011f3-6a4b-412a-b9f0-89790951bf22")
+			(uuid "57f2dfb7-62b0-4e6e-85a3-61af9cd5a517")
 		)
 		(pin "1"
-			(uuid "326f4548-f5ad-4626-abbd-3a912655d632")
+			(uuid "7a1ec49d-adc7-4d9c-918e-c126dcca198e")
 		)
 		(pin "3"
-			(uuid "c5805a43-8ba2-4765-9d95-92c9b6d350d0")
+			(uuid "c70ab861-fd16-4472-a206-08b8bd359089")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "D1")
 					(unit 1)
 				)
@@ -5672,14 +5672,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a98a5975-27ae-49fe-844a-3c4c405d4823")
+			(uuid "0d6b24cf-db9d-40b3-bf3f-5122e507fbb6")
 		)
 		(pin "1"
-			(uuid "35e0c67b-de3a-4378-95ce-abab3e4bda99")
+			(uuid "ca298338-931e-4ab4-8813-76ecb7bdbdde")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "D2")
 					(unit 1)
 				)
@@ -5742,11 +5742,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3742d31-4a05-4dac-8e17-7d274690729d")
+			(uuid "29a387ec-d5a1-426b-9e7a-2b0d787cc266")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -5807,11 +5807,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6da0e29a-78b5-49af-a587-17317b584aec")
+			(uuid "86560fb7-0800-47f8-93aa-a051222a6d0a")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -6006,26 +6006,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "10ed657c-619a-4980-8b16-81ae6ffe4815")
+			(uuid "a1c5595d-fcf0-48ba-ad49-ec5936ff443b")
 		)
 		(pin "2"
-			(uuid "846bd741-0f92-4f03-b0c7-cc3d9726ec09")
+			(uuid "7c672e08-9d56-4a2d-8b3d-8b775883e658")
 		)
 		(pin "3"
-			(uuid "4e633ea2-6fa2-40ab-8531-e5901ec55ed2")
+			(uuid "6f84611f-3165-428a-8621-89dfff3126eb")
 		)
 		(pin "4"
-			(uuid "e58725cf-8ac3-4a9b-974c-5653d7c2609b")
+			(uuid "414e3ff3-76b0-4df7-936b-dec56967f1d6")
 		)
 		(pin "5"
-			(uuid "fee6a2fd-1db9-406f-bb42-7a2114495f51")
+			(uuid "c34c3d74-3a20-44c4-a340-b235c80135be")
 		)
 		(pin "6"
-			(uuid "b457366e-9144-49dc-8981-be9a795148a9")
+			(uuid "bf710ff4-003f-4a46-a4db-bf6203cbbc1a")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "U9")
 					(unit 1)
 				)
@@ -6213,14 +6213,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4973f8e7-f8e2-4014-a8ab-f6fe3b8b57c3")
+			(uuid "37da9a67-6f41-4566-b574-f3448dcfc621")
 		)
 		(pin "2"
-			(uuid "83247874-08d2-492b-b14e-ff39444b7200")
+			(uuid "f4f15208-f88a-472f-a3ce-ea702ba05c4a")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "L4")
 					(unit 1)
 				)
@@ -6292,14 +6292,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4e48e50f-2bc7-4b74-a52d-1de495c5f7f5")
+			(uuid "f0c99b9c-89b9-4eea-8ee9-40498fcb2ab9")
 		)
 		(pin "2"
-			(uuid "cb4a1c0c-c5c5-4154-a699-da895afc3d0e")
+			(uuid "9b49d9f4-7554-4539-87b8-fa5c0ed29e0e")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "C44")
 					(unit 1)
 				)
@@ -6488,14 +6488,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "52038ffd-6f7b-4945-a730-b8e6050b2c03")
+			(uuid "ab56126a-1a55-46b8-9589-81c8897695a5")
 		)
 		(pin "2"
-			(uuid "d5bcbf5f-11fe-4f19-89a4-a5f6230d068e")
+			(uuid "69e57bd8-c23b-4a96-aa6f-82b209d3078b")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "C22")
 					(unit 1)
 				)
@@ -6566,17 +6566,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "324e55be-966c-4ef1-a9ea-c267836fc2bf")
+			(uuid "78e94e04-9bc0-4bc4-8dbe-00ef8d292999")
 		)
 		(pin "3"
-			(uuid "3e46c211-61bc-46d8-b920-0541172bc164")
+			(uuid "5ea23711-0abc-4ed4-91f4-346427c7b101")
 		)
 		(pin "2"
-			(uuid "de3a3380-8bfa-4b42-867f-7095bb11fe9b")
+			(uuid "f295ca4d-06c2-41b1-bfcb-f8a0c5ba8fc6")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -6648,14 +6648,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "be6fd648-e5ee-42e7-86ad-3c3680e038d5")
+			(uuid "f65c57df-d5ae-4fae-a0cc-0060d8c9f1b1")
 		)
 		(pin "1"
-			(uuid "cefb8fb9-6f04-4242-8c83-95fb37461b32")
+			(uuid "8cc4c0c6-aa6e-4424-826e-d4a93fdebcc8")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "R8")
 					(unit 1)
 				)
@@ -6718,11 +6718,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a2857f7-adbd-4fdb-af5a-edab5aa5c506")
+			(uuid "9f98b541-67c7-40ef-99b1-2f1b0c38c4a2")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -6983,14 +6983,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8204c04-070f-4849-86f9-fe287cbc4f2f")
+			(uuid "1c1db90d-3ac1-4413-8070-1b6a6d32a868")
 		)
 		(pin "2"
-			(uuid "d240dc03-e30e-4128-b440-74c85b922b47")
+			(uuid "1eae1712-cdf6-4f3f-ace4-095724e19872")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "R24")
 					(unit 1)
 				)
@@ -7053,11 +7053,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "12bc89c5-cef9-4ee6-b2de-2a4098df5aad")
+			(uuid "b82402af-3d59-4e7d-a41b-b81f609ba83c")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR097")
 					(unit 1)
 				)
@@ -7120,11 +7120,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "27ac51df-1f39-4562-8bbb-1b29398e0a08")
+			(uuid "0668b447-5f6d-4e3a-bdc3-da287355f303")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR0101")
 					(unit 1)
 				)
@@ -7187,11 +7187,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4762d08e-921d-44b8-8748-e7c464ce0343")
+			(uuid "1dd30a51-4aac-4ca2-aa13-0b15ddf8050e")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -7378,14 +7378,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce67ba5b-b448-4996-9830-cfe8ca181f51")
+			(uuid "1b32d6b3-54d5-4482-9ee8-b2ac9b964062")
 		)
 		(pin "2"
-			(uuid "188f49bc-4bd3-44d3-9ca2-dfb54c5e48d1")
+			(uuid "806713ca-fc17-401c-b078-0eeb40472a21")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "C20")
 					(unit 1)
 				)
@@ -7448,11 +7448,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7f697ec-3894-4602-b853-da9084dcadd1")
+			(uuid "e7947bfc-6368-4897-8799-5335c5040298")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -7514,11 +7514,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "60671946-b611-42a0-a55f-4b294fe4cdf9")
+			(uuid "9a21065b-967c-4a9a-92aa-49cbf629a9f7")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -7707,14 +7707,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "00fa007a-06a4-4ce5-86be-df026fff92d0")
+			(uuid "5c72ff38-d320-4244-bf8d-20f48c72d9b2")
 		)
 		(pin "2"
-			(uuid "e30f0aac-7a58-42b9-955d-60a240b345b6")
+			(uuid "a348c361-7021-4d75-b58e-dfb6f1788147")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "C21")
 					(unit 1)
 				)
@@ -7776,11 +7776,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d11bc56-3352-4cc9-9b62-5d24cfb9e542")
+			(uuid "e4f908ab-257d-49e5-bab0-ef76fb481920")
 		)
 		(instances
 			(project "elec_RPI_Robot_HAT"
-				(path "/bc05f5da-608c-4912-90e4-36b13d989976/a3937924-4fc8-44c5-a8b9-2db54a98c907"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/1eed69e4-1e3f-4f08-b497-d13d201c1e05"
 					(reference "#PWR096")
 					(unit 1)
 				)

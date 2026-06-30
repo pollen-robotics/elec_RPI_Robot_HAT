@@ -852,19 +852,23 @@
       "Root"
     ],
     [
-      "4c364cbe-d7af-466c-9311-a9def46da3c7",
-      "Dynamixel"
+      "d25b6afa-8f8a-4256-aaa0-d06d8816c749",
+      "Schematic"
     ],
     [
-      "51aae2c5-2ebf-4088-ad60-315661d0a581",
-      "Sensors"
-    ],
-    [
-      "a3937924-4fc8-44c5-a8b9-2db54a98c907",
+      "1eed69e4-1e3f-4f08-b497-d13d201c1e05",
       "Power"
     ],
     [
-      "557beae8-45dc-49b3-a05f-ac573dd131ad",
+      "dd8df41a-ac53-4462-a3fb-30e558be4c8a",
+      "Dynamixel"
+    ],
+    [
+      "7c72b1ef-1385-4d18-a22c-ca8fe94f1469",
+      "Sensors"
+    ],
+    [
+      "0c96912b-e4c1-4c95-9b89-2df53fe3745d",
       "Audio"
     ]
   ],
