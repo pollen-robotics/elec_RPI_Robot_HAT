@@ -6504,13 +6504,13 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 198.12 74.93 90)
+		(at 198.12 74.93 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "988dc998-a0db-43a1-8867-b61a4cf99d49")
 		(property "Reference" "Q2"
 			(at 198.12 68.58 90)

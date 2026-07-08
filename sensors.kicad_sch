@@ -1462,6 +1462,12 @@
 		(uuid "a1108666-bbaf-429b-b2a9-02b8ef96128b")
 	)
 	(junction
+		(at 109.22 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2c7f82e-bae9-45e0-a551-1585f4a03f0e")
+	)
+	(junction
 		(at 111.76 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2458,6 +2464,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 162.56) (xy 109.22 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed9a028-ef07-41e3-90ef-f4a681775257")
+	)
+	(wire
+		(pts
 			(xy 132.08 181.61) (xy 132.08 182.88)
 		)
 		(stroke
@@ -2565,6 +2581,16 @@
 			(type default)
 		)
 		(uuid "aa08779c-9a53-4612-938b-948ec14df434")
+	)
+	(wire
+		(pts
+			(xy 106.68 161.29) (xy 106.68 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa57eb71-3803-41db-9330-3d55b8addaff")
 	)
 	(wire
 		(pts
@@ -9199,6 +9225,71 @@
 			(project "elec_RPI_Robot_HAT"
 				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/7c72b1ef-1385-4d18-a22c-ca8fe94f1469"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 106.68 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9979f263-940f-4ead-b76f-0a7a5b49f514")
+		(property "Reference" "#PWR0104"
+			(at 106.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.68 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 106.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2919e029-74cb-48ab-9a14-af697e90d310")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/7c72b1ef-1385-4d18-a22c-ca8fe94f1469"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)

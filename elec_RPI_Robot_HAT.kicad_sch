@@ -353,6 +353,28 @@
 		)
 		(uuid "19404b3d-febf-4cb1-86eb-41ed4fc6fb19")
 	)
+	(text "C1"
+		(exclude_from_sim no)
+		(at 19.05 82.55 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "19625310-63a4-4aa2-968f-1ceeddde1888")
+	)
+	(text "[fix] 3V3 on IO10/11\n[fix] MOS direction of Ideal diode\n[update] I2C3 is by default instead of reserved I2C"
+		(exclude_from_sim no)
+		(at 93.218 88.392 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "200af41b-bcc1-4798-bd7b-5ee74e1ade30")
+	)
 	(text "Check"
 		(exclude_from_sim no)
 		(at 77.47 38.1 0)
@@ -363,6 +385,17 @@
 			(justify left bottom)
 		)
 		(uuid "22b07184-65f0-47c8-b73e-8dabb20022b8")
+	)
+	(text "EB"
+		(exclude_from_sim no)
+		(at 63.5 82.55 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "247787cd-1f24-4c45-98bf-4450b2573ea1")
 	)
 	(text "Release"
 		(exclude_from_sim no)
@@ -397,27 +430,29 @@
 		)
 		(uuid "431b89f6-ffc2-41ab-b0c5-a329f18026f2")
 	)
-	(text "Cabled buses on Raspberry PIs\n - PI zero 2W:\n     - I2C0 (pin 27/28 ID_SD/C): HAT identification (reserved)\n     - I2C1 (pin 2/3 SDA/SCL): IMU + Audio + Stemma/QT\n - PI 4:\n     - same I2C0/1\n     - I2C3 (pin 7/29 SDA/SCL): Stemma/QT\n     - I2C4 (pin 8/9 SDA/SCL): Stemma/QT\n     - I2C5 (pin 10/11 SDA/SCL): Stemma/QT\n - PI 5:\n     - same I2C0/1\n     - I2C2 (pin 4/5 SDA/SCL): Stemma/QT"
+	(text "Cabled buses on Raspberry PIs\n - PI zero 2W:\n     - I2C0 (           pin 27/28 ID_SD/C): reserved, but can be on J6 with 0R\n     - I2C1 (IO  2/ 3 - pin  3/ 5 SDA/SCL): IMU + Audio + Qwiic J5\n - PI 4:\n     - same I2C0/1\n     - I2C3 (IO  4/ 5 - pin  7/29 SDA/SCL): Qwiic J6\n     - I2C4 (IO  8/ 9 - pin 24/21 SDA/SCL): Qwiic J7\n     - I2C5 (IO 10/11 - pin 19/23 SDA/SCL): Qwiic J8\n - PI 5:\n     - same I2C0/1\n     - I2C2 (IO  2/ 3 - pin  3/ 5 SDA/SCL): Qwiic J5"
 		(exclude_from_sim no)
 		(at 181.102 57.912 0)
 		(effects
 			(font
-				(size 2.0066 2.0066)
+				(face "Liberation Mono")
+				(size 1.5 1.5)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 		(uuid "573da85b-985d-4719-aad6-0916966dd1a9")
 	)
-	(text "ToDo:\n - HAT+ marking?\n - ERROR: MOS transistor of the ideal diode is reversed (source/drain). \n   It runs as is but it does not protect the DCDC when USB-powered\n - ERROR: 3v3 is missing on J8, R38/39"
+	(text "08/07/2026"
 		(exclude_from_sim no)
-		(at 32.258 96.52 0)
+		(at 39.37 82.55 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
 			)
 			(justify left bottom)
 		)
-		(uuid "5c84b2c8-cc80-433e-9f91-c4650b087010")
+		(uuid "5d83b158-1623-4a3c-b138-019eab175c02")
 	)
 	(text "EB"
 		(exclude_from_sim no)
@@ -518,6 +553,17 @@
 		)
 		(uuid "d193b307-c435-42ea-9e27-3882764c5d73")
 	)
+	(text "SN"
+		(exclude_from_sim no)
+		(at 78.74 82.55 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+			)
+			(justify left bottom)
+		)
+		(uuid "d527d15a-a301-4258-ad5c-e5bcb9c19a75")
+	)
 	(text "B1"
 		(exclude_from_sim no)
 		(at 19.05 50.8 0)
@@ -564,7 +610,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.44 35.56) (xy 91.44 60.96)
+			(xy 91.44 35.56) (xy 91.44 91.44)
 		)
 		(stroke
 			(width 0)
@@ -574,7 +620,7 @@
 	)
 	(polyline
 		(pts
-			(xy 38.1 35.56) (xy 38.1 60.96)
+			(xy 38.1 35.56) (xy 38.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -594,7 +640,17 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 35.56) (xy 60.96 60.96)
+			(xy 19.05 77.47) (xy 177.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e19cbd1-7a62-402a-830d-cab11c11827a")
+	)
+	(polyline
+		(pts
+			(xy 60.96 35.56) (xy 60.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -604,7 +660,7 @@
 	)
 	(polyline
 		(pts
-			(xy 76.2 35.56) (xy 76.2 60.96)
+			(xy 76.2 35.56) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
