@@ -4830,7 +4830,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "022a8062-999d-4f05-8a01-5695d3422355")
 		(property "Reference" "R19"
 			(at 88.646 101.6 90)
@@ -4840,7 +4840,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP-0R"
+		(property "Value" "0R"
 			(at 95.758 101.346 90)
 			(effects
 				(font
@@ -5338,7 +5338,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1e406d39-6bdd-4e1f-860f-d69efa8c1db5")
 		(property "Reference" "R18"
 			(at 88.646 93.98 90)
@@ -5348,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP-0R"
+		(property "Value" "0R"
 			(at 95.758 94.234 90)
 			(effects
 				(font
@@ -6325,18 +6325,18 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4f53e600-bd76-4ccf-909e-c526d67ff499")
 		(property "Reference" "R16"
-			(at 89.154 108.966 90)
+			(at 89.154 112.014 90)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 96.012 109.22 90)
+		(property "Value" "DNP-0R"
+			(at 99.314 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6370,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 92.71 110.49 90)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6ad48926-a769-47df-9121-ff508ea3b257")
 		(property "Reference" "R17"
 			(at 89.154 106.426 90)
@@ -7647,8 +7647,8 @@
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 96.012 106.68 90)
+		(property "Value" "DNP-0R"
+			(at 99.314 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7682,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 92.71 107.95 90)
 			(effects
 				(font

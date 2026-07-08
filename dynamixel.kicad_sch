@@ -11604,7 +11604,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 160.02 331.47 90)
 			(effects
 				(font
