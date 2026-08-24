@@ -1,7 +1,7 @@
 # Pollen-specific
 #fab/
 fab/.old/*
-production/
+#production/
 fabrication-toolkit-options.json
 
 # Temporary files

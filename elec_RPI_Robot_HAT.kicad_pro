@@ -515,7 +515,7 @@
       "plot": "fab/",
       "pos_files": "fab/",
       "specctra_dsn": "",
-      "step": "fab/ASE01187-B1_elec_RPI_Robot_HAT_STEP_sans_rasp.step",
+      "step": "production/ASE01187-C1_elec_RPI_Robot_HAT_STEP.step",
       "svg": "",
       "vrml": ""
     },
@@ -835,7 +835,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "fab/",
+    "plot_directory": "production/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
