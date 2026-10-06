@@ -2187,7 +2187,7 @@
 		)
 		(uuid "6b372964-dfb6-42f4-948a-991759efdc62")
 	)
-	(text "HAT Identification:\n  I2C add. 0x50\n  Standard Class HAT+"
+	(text "HAT Identification:\n  I2C add. 0x50"
 		(exclude_from_sim no)
 		(at 121.92 151.638 0)
 		(effects

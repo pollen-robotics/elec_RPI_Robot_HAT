@@ -515,7 +515,7 @@
       "plot": "production/",
       "pos_files": "fab/",
       "specctra_dsn": "",
-      "step": "production/ASE01187-C1_elec_RPI_Robot_HAT_STEP.step",
+      "step": "production/ASE01187-D1_elec_RPI_Robot_HAT_STEP.step",
       "svg": "",
       "vrml": ""
     },

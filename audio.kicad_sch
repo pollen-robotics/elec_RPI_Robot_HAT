@@ -4530,7 +4530,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 17.78) (xy 224.79 17.78)
+			(xy 204.47 17.78) (xy 209.55 17.78)
 		)
 		(stroke
 			(width 0)
@@ -4687,6 +4687,16 @@
 			(type default)
 		)
 		(uuid "a2d26dcd-c40a-4033-91d1-b090a8e6b30f")
+	)
+	(wire
+		(pts
+			(xy 214.63 17.78) (xy 224.79 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4aa4a94-43c8-4a27-81ee-517a299c8afd")
 	)
 	(wire
 		(pts
@@ -4930,7 +4940,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 16.51) (xy 223.52 17.78)
+			(xy 204.47 16.51) (xy 204.47 17.78)
 		)
 		(stroke
 			(width 0)
@@ -9682,7 +9692,7 @@
 		(dnp no)
 		(uuid "570770ac-25c5-4498-81bb-f45463d64012")
 		(property "Reference" "C42"
-			(at 222.25 18.542 0)
+			(at 221.996 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,6 +11153,82 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 212.09 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766b7741-6a50-4044-a84d-e99b39aef6d8")
+		(property "Reference" "R42"
+			(at 212.09 19.812 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 212.09 15.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 212.09 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 212.09 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105637"
+			(at 212.09 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "698e58ff-53ef-46d7-b67d-19608921cc44")
+		)
+		(pin "1"
+			(uuid "b64f2fc2-ccbf-43a3-bda8-97b7b3e2a3ad")
+		)
+		(instances
+			(project "elec_RPI_Robot_HAT"
+				(path "/bc05f5da-608c-4912-90e4-36b13d989976/d25b6afa-8f8a-4256-aaa0-d06d8816c749/0c96912b-e4c1-4c95-9b89-2df53fe3745d"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 234.95 21.59 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11159,7 +11245,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 239.268 23.622 0)
 			(effects
 				(font
@@ -11258,7 +11344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C105871"
 			(at 234.95 21.59 0)
 			(effects
 				(font
@@ -13150,7 +13236,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 247.65 41.91 90)
 			(effects
 				(font
@@ -14031,7 +14117,7 @@
 		(dnp no)
 		(uuid "abab8773-4e7c-48c5-83af-792754968101")
 		(property "Reference" "C43"
-			(at 222.25 20.3135 0)
+			(at 221.996 21.0755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14040,7 +14126,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 222.25 22.8535 0)
+			(at 221.996 23.6155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14750,7 +14836,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 223.52 16.51 0)
+		(at 204.47 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14758,7 +14844,7 @@
 		(dnp no)
 		(uuid "b59f3769-87e3-4403-af64-17e62bc3d1fc")
 		(property "Reference" "#PWR062"
-			(at 223.52 20.32 0)
+			(at 204.47 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14767,7 +14853,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 220.472 13.716 0)
+			(at 201.422 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +14861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 16.51 0)
+			(at 204.47 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14784,7 +14870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 16.51 0)
+			(at 204.47 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +14879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 16.51 0)
+			(at 204.47 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15177,7 +15263,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 241.554 22.86 0)
 			(effects
 				(font
@@ -15277,7 +15363,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C105871"
 			(at 237.49 21.59 0)
 			(effects
 				(font
@@ -16931,7 +17017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" ""
 			(at 250.19 41.91 90)
 			(effects
 				(font
