@@ -7527,7 +7527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIT3088E"
+		(property "Value" "GM3088ENA"
 			(at 174.8633 306.07 0)
 			(effects
 				(font
@@ -7536,7 +7536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP1.5x1.8mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.2x2.15mm"
 			(at 199.39 330.2 0)
 			(effects
 				(font
@@ -7564,7 +7564,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2922535"
+		(property "LCSC Part" "C49423279"
 			(at 172.72 321.31 0)
 			(effects
 				(font
@@ -7573,7 +7573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man." "SIT"
+		(property "Man." "Gatemode"
 			(at 172.72 321.31 0)
 			(effects
 				(font
@@ -7582,7 +7582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Man. Ref." "SIT3088EEUA"
+		(property "Man. Ref." "GM3088ENA"
 			(at 172.72 321.31 0)
 			(effects
 				(font
@@ -7709,6 +7709,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 172.72 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 172.72 321.31 0)
 			(effects
 				(font
@@ -13049,7 +13058,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3040625"
+		(property "LCSC Part" "C23654"
 			(at 139.7 121.92 0)
 			(effects
 				(font
@@ -13324,7 +13333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C138054"
+		(property "LCSC Part" "C2909321"
 			(at 201.93 180.34 90)
 			(effects
 				(font

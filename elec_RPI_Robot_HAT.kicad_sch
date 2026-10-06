@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "elec RPI Robot HAT")
-		(date "2026-05-06")
-		(rev "B1")
+		(date "2026-10-05")
+		(rev "D1")
 		(company "Pollen Robotics / Hugging Face")
 	)
 	(lib_symbols
@@ -331,86 +331,9 @@
 			"IO_26" "IO_27"
 		)
 	)
-	(text "[fixed] Acc. is at 0x19 I2C address\n[fixed] Soft reset of the audio DAC\n[fixed] Ideal diode\n[fixed] Know position of IMU\n[update] Dynamixel_dir is based on Tx\n[added] IMU can be disconnected\n[added] IMU_IT is cabled\n[added] Access to I2C0\n[added] Switch off detection"
-		(exclude_from_sim no)
-		(at 93.218 75.438 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "006d2b97-bd4f-4a58-881b-5953648515f9")
-	)
-	(text "Date"
-		(exclude_from_sim no)
-		(at 39.37 38.1 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "19404b3d-febf-4cb1-86eb-41ed4fc6fb19")
-	)
-	(text "C1"
-		(exclude_from_sim no)
-		(at 19.05 82.55 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "19625310-63a4-4aa2-968f-1ceeddde1888")
-	)
-	(text "[fix] 3V3 on IO10/11\n[fix] MOS direction of Ideal diode\n[update] I2C3 is by default instead of reserved I2C"
-		(exclude_from_sim no)
-		(at 93.218 88.392 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "200af41b-bcc1-4798-bd7b-5ee74e1ade30")
-	)
-	(text "Check"
-		(exclude_from_sim no)
-		(at 77.47 38.1 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "22b07184-65f0-47c8-b73e-8dabb20022b8")
-	)
-	(text "EB"
-		(exclude_from_sim no)
-		(at 63.5 82.55 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "247787cd-1f24-4c45-98bf-4450b2573ea1")
-	)
-	(text "Release"
-		(exclude_from_sim no)
-		(at 19.05 38.1 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "2520f966-d268-4d70-9674-db30a65b367c")
-	)
 	(text "Fiducials"
 		(exclude_from_sim no)
-		(at 74.168 151.13 0)
+		(at 67.818 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -418,17 +341,6 @@
 			(justify left bottom)
 		)
 		(uuid "2e98ae0d-ae46-4a9e-8b64-d34a59e24417")
-	)
-	(text "A1"
-		(exclude_from_sim no)
-		(at 19.05 44.45 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "431b89f6-ffc2-41ab-b0c5-a329f18026f2")
 	)
 	(text "Cabled buses on Raspberry PIs\n - PI zero 2W:\n     - I2C0 (           pin 27/28 ID_SD/C): reserved, but can be on J6 with 0R\n     - I2C1 (IO  2/ 3 - pin  3/ 5 SDA/SCL): IMU + Audio + Qwiic J5\n - PI 4:\n     - same I2C0/1\n     - I2C3 (IO  4/ 5 - pin  7/29 SDA/SCL): Qwiic J6\n     - I2C4 (IO  8/ 9 - pin 24/21 SDA/SCL): Qwiic J7\n     - I2C5 (IO 10/11 - pin 19/23 SDA/SCL): Qwiic J8\n - PI 5:\n     - same I2C0/1\n     - I2C2 (IO  2/ 3 - pin  3/ 5 SDA/SCL): Qwiic J5"
 		(exclude_from_sim no)
@@ -443,31 +355,9 @@
 		)
 		(uuid "573da85b-985d-4719-aad6-0916966dd1a9")
 	)
-	(text "08/07/2026"
-		(exclude_from_sim no)
-		(at 39.37 82.55 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d83b158-1623-4a3c-b138-019eab175c02")
-	)
-	(text "EB"
-		(exclude_from_sim no)
-		(at 63.5 44.45 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "62d7d4ff-c831-4135-bec0-50323fd58d17")
-	)
 	(text "ASE01187"
 		(exclude_from_sim no)
-		(at 40.64 158.115 0)
+		(at 34.29 118.745 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -476,66 +366,9 @@
 		)
 		(uuid "64f83ac9-3529-4dbb-bb27-271f6238e29c")
 	)
-	(text "06/05/2026"
-		(exclude_from_sim no)
-		(at 39.37 50.8 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "68f54d7e-52ab-4a88-b0b5-9f02caf962e8")
-	)
-	(text "SN"
-		(exclude_from_sim no)
-		(at 78.74 50.8 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ffd7d74-6425-48e9-b98e-3ec5606c8ce2")
-	)
-	(text "EB"
-		(exclude_from_sim no)
-		(at 63.5 50.8 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fdb2b71-9a9d-46ba-82d2-e3de8f7b2b0a")
-	)
-	(text "Initial drawing"
-		(exclude_from_sim no)
-		(at 92.71 44.45 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "8871bca3-55b7-4e24-a38f-cc9e184422ab")
-	)
-	(text "ToDo:\n - update IMU for LSM6DSV16XTR\n - check compatibility with Radxa boards"
-		(exclude_from_sim no)
-		(at 42.418 96.52 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "92ddfca9-45b3-4c00-85cf-327a21c410e7")
-	)
 	(text "\"RPI_Robot_HAT\" is a raspberry PI HAT designed for small/medium \nsize robots. It has an IMU, Dynamixel connectors and audio. Its\ndimensions fits a raspberry PI zero"
 		(exclude_from_sim no)
-		(at 19.304 27.686 0)
+		(at 36.322 53.086 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -543,17 +376,6 @@
 			(justify left bottom)
 		)
 		(uuid "ac9667d7-cd1e-4c91-8948-647041f3fcde")
-	)
-	(text "Designer"
-		(exclude_from_sim no)
-		(at 62.23 38.1 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "b088e14a-2a87-440c-a033-f65020b82725")
 	)
 	(text "Cabled GPIOs on the 40-way Header:\n - GPIO00/01: HAT identification over I2C (reserved)\n - GPIO02: IMU + Audio + Stemma/QT - SDA\n - GPIO03: IMU + Audio + Stemma/QT - SCL\n - GPIO04: Stemma/QT - SDA\n - GPIO05: Stemma/QT - SCL\n - GPIO06: Switch off detection\n - GPIO07\n - GPIO08: Stemma/QT - SDA\n - GPIO09: Stemma/QT - SCL\n - GPIO10: Stemma/QT - SDA\n - GPIO11: Stemma/QT - SCL\n - GPIO12\n - GPIO13:\n - GPIO14: Dynamixel - UART_Tx\n - GPIO15: Dynamixel - UART_Rx\n - GPIO16\n - GPIO17\n - GPIO18: Audio, PCM Clk\n - GPIO19: Audio, PCM FS\n - GPIO20: Audio, Din\n - GPIO21: Audio, Dout\n - GPIO22: IMU_IT\n - GPIO23\n - GPIO24\n - GPIO25\n - GPIO26\n - GPIO27\n"
 		(exclude_from_sim no)
@@ -565,131 +387,6 @@
 			(justify left bottom)
 		)
 		(uuid "d193b307-c435-42ea-9e27-3882764c5d73")
-	)
-	(text "SN"
-		(exclude_from_sim no)
-		(at 78.74 82.55 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "d527d15a-a301-4258-ad5c-e5bcb9c19a75")
-	)
-	(text "B1"
-		(exclude_from_sim no)
-		(at 19.05 50.8 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1a593cc-7001-4d88-90e4-dc654a546da5")
-	)
-	(text "SN"
-		(exclude_from_sim no)
-		(at 78.74 44.45 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4723e2a-7a83-4da7-82f6-af7550fc504a")
-	)
-	(text "Comments"
-		(exclude_from_sim no)
-		(at 92.71 38.1 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5d00bcc-eabe-48dd-9739-479bfa89e1ef")
-	)
-	(text "06/03/2026"
-		(exclude_from_sim no)
-		(at 39.37 44.45 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd8ecdb1-38b8-46de-af7f-1da0a43da889")
-	)
-	(polyline
-		(pts
-			(xy 91.44 35.56) (xy 91.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fb933a6-4b49-4dd0-91be-6867700ea5fb")
-	)
-	(polyline
-		(pts
-			(xy 38.1 35.56) (xy 38.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcb46b6-81ed-4915-9bb2-168f938d3be4")
-	)
-	(polyline
-		(pts
-			(xy 19.05 45.72) (xy 177.8 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e2e2d78-f1f1-4b12-9681-03f080e751de")
-	)
-	(polyline
-		(pts
-			(xy 19.05 77.47) (xy 177.8 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e19cbd1-7a62-402a-830d-cab11c11827a")
-	)
-	(polyline
-		(pts
-			(xy 60.96 35.56) (xy 60.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad3f8186-bcfc-46e6-acc2-f8ddd6dbb5ef")
-	)
-	(polyline
-		(pts
-			(xy 76.2 35.56) (xy 76.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af965509-ef82-496f-a549-5303f8d10db8")
-	)
-	(polyline
-		(pts
-			(xy 19.05 39.37) (xy 177.8 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b02e3a0e-82b7-4974-8bb8-875d58b2e391")
 	)
 	(image
 		(at 251.46 172.72)
@@ -2405,7 +2102,7 @@
 		)
 	)
 	(image
-		(at 129.54 137.16)
+		(at 123.19 97.79)
 		(scale 0.15)
 		(uuid "bbb08fdf-426a-4d03-9d5c-8644afd6e339")
 		(data "iVBORw0KGgoAAAANSUhEUgAABGIAAAJkCAYAAABauoe4AAAAx3pUWHRSYXcgcHJvZmlsZSB0eXBl"
@@ -12077,7 +11774,7 @@
 	)
 	(symbol
 		(lib_id "Library_Pollen:Logo Pollen 2021")
-		(at 49.53 162.56 0)
+		(at 43.18 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12085,7 +11782,7 @@
 		(dnp no)
 		(uuid "27295418-94b8-4760-ba2d-314b58e4124d")
 		(property "Reference" "H3"
-			(at 50.8 160.655 0)
+			(at 44.45 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,7 +11791,7 @@
 			)
 		)
 		(property "Value" "DNP Logo Pollen 2021"
-			(at 55.88 160.02 0)
+			(at 49.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +11800,7 @@
 			)
 		)
 		(property "Footprint" "Library_Pollen:Logo_Pollen_2021_sq"
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12112,7 +11809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12121,7 +11818,7 @@
 			)
 		)
 		(property "Description" "Logo Pollen"
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,7 +11827,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +11836,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +11845,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +11854,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12166,7 +11863,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +11872,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12184,7 +11881,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12193,7 +11890,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12202,7 +11899,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12211,7 +11908,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12220,7 +11917,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +11926,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +11935,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 49.53 162.56 0)
+			(at 43.18 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12257,7 +11954,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 82.55 156.21 0)
+		(at 76.2 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12266,7 +11963,7 @@
 		(fields_autoplaced yes)
 		(uuid "43517bcb-c140-41ec-89b4-e7c576f417df")
 		(property "Reference" "FID3"
-			(at 85.09 156.2099 0)
+			(at 78.74 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12276,7 +11973,7 @@
 			)
 		)
 		(property "Value" "DNP Fiducial"
-			(at 85.09 157.4799 0)
+			(at 78.74 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +11983,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +11992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12001,7 @@
 			)
 		)
 		(property "Description" "Fiducial"
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12010,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +12019,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,7 +12028,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12340,7 +12037,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12046,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,7 +12055,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12064,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12073,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12082,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12091,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,7 +12100,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12109,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12118,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 82.55 156.21 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12440,7 +12137,7 @@
 	)
 	(symbol
 		(lib_id "Library_Pollen:PCB")
-		(at 38.1 151.765 0)
+		(at 31.75 112.395 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12448,7 +12145,7 @@
 		(dnp no)
 		(uuid "7d2f196e-827d-42b9-a370-6aaba9a2f4b1")
 		(property "Reference" "H1"
-			(at 40.64 149.225 0)
+			(at 34.29 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12458,7 +12155,7 @@
 			)
 		)
 		(property "Value" "PCB01186"
-			(at 40.64 154.305 0)
+			(at 34.29 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12467,7 +12164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12476,7 +12173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,7 +12182,7 @@
 			)
 		)
 		(property "Description" "PCB"
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12494,7 +12191,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +12200,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12512,7 +12209,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,7 +12218,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12530,7 +12227,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,7 +12236,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12548,7 +12245,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12557,7 +12254,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +12263,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12575,7 +12272,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +12281,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +12290,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,7 +12299,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 38.1 151.765 0)
+			(at 31.75 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +12318,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 74.93 156.21 0)
+		(at 68.58 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12629,7 +12326,7 @@
 		(dnp no)
 		(uuid "80a50716-5ca6-48da-bcba-2aff61661566")
 		(property "Reference" "FID1"
-			(at 77.47 156.21 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +12336,7 @@
 			)
 		)
 		(property "Value" "DNP Fiducial"
-			(at 77.47 157.4799 0)
+			(at 71.12 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +12346,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12667,7 +12364,7 @@
 			)
 		)
 		(property "Description" "Fiducial"
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12676,7 +12373,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12685,7 +12382,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12694,7 +12391,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +12400,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12712,7 +12409,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +12418,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,7 +12427,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +12436,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12748,7 +12445,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,7 +12454,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12766,7 +12463,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12775,7 +12472,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12784,7 +12481,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 74.93 156.21 0)
+			(at 68.58 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +12500,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 78.74 162.56 0)
+		(at 72.39 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12812,7 +12509,7 @@
 		(fields_autoplaced yes)
 		(uuid "e534ddd5-4e18-4732-9c82-c708ecfd3ebc")
 		(property "Reference" "FID2"
-			(at 81.28 162.5599 0)
+			(at 74.93 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12822,7 +12519,7 @@
 			)
 		)
 		(property "Value" "DNP Fiducial"
-			(at 81.28 163.8299 0)
+			(at 74.93 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12832,7 +12529,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12841,7 +12538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12850,7 +12547,7 @@
 			)
 		)
 		(property "Description" "Fiducial"
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12859,7 +12556,7 @@
 			)
 		)
 		(property "Man." ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,7 +12565,7 @@
 			)
 		)
 		(property "Man. Ref." ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12877,7 +12574,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12886,7 +12583,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12895,7 +12592,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,7 +12601,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +12610,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12922,7 +12619,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +12628,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +12637,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,7 +12646,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12958,7 +12655,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12967,7 +12664,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 78.74 162.56 0)
+			(at 72.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +12683,7 @@
 	)
 	(symbol
 		(lib_id "Library_Pollen:Logo HF 2025")
-		(at 49.53 160.02 0)
+		(at 43.18 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12995,7 +12692,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8f2ab0f-6624-45f8-b8e5-c599d24045f9")
 		(property "Reference" "H2"
-			(at 55.88 157.48 0)
+			(at 49.53 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +12701,7 @@
 			)
 		)
 		(property "Value" "Logo HF 2025"
-			(at 58.42 163.83 0)
+			(at 52.07 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +12710,7 @@
 			)
 		)
 		(property "Footprint" "Library_Pollen:Logo_HF_2025"
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +12719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +12728,7 @@
 			)
 		)
 		(property "Description" "Logo HF"
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13040,7 +12737,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13049,7 +12746,7 @@
 			)
 		)
 		(property "Field7" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13058,7 +12755,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13067,7 +12764,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13076,7 +12773,7 @@
 			)
 		)
 		(property "Length" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13085,7 +12782,7 @@
 			)
 		)
 		(property "Power Rating" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13094,7 +12791,7 @@
 			)
 		)
 		(property "Resistance" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13103,7 +12800,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13112,7 +12809,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13121,7 +12818,7 @@
 			)
 		)
 		(property "Width" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13130,7 +12827,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 49.53 160.02 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13148,7 +12845,7 @@
 		)
 	)
 	(sheet
-		(at 48.26 116.205)
+		(at 41.91 76.835)
 		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13164,7 +12861,7 @@
 		)
 		(uuid "d25b6afa-8f8a-4256-aaa0-d06d8816c749")
 		(property "Sheetname" "Schematic"
-			(at 48.26 115.4934 0)
+			(at 41.91 76.1234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13173,7 +12870,7 @@
 			)
 		)
 		(property "Sheetfile" "main.kicad_sch"
-			(at 48.26 139.6496 0)
+			(at 41.91 100.2796 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6520,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Value" "SI2312CDS-T1-GE3"
+		(property "Value" "N-Channel 5A"
 			(at 198.12 68.58 90)
 			(effects
 				(font
@@ -6556,7 +6556,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C142518"
+		(property "LCSC Part" "C22469448"
 			(at 198.12 74.93 90)
 			(effects
 				(font

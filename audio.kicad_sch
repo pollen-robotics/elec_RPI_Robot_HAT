@@ -7541,7 +7541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Wago-2"
+		(property "Value" "Screw term."
 			(at 266.7 93.9801 0)
 			(effects
 				(font
@@ -7550,7 +7550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:Wago_2059-302_998-403"
+		(property "Footprint" "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN"
 			(at 264.16 96.52 0)
 			(effects
 				(font
@@ -7577,7 +7577,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2765060"
+		(property "LCSC Part" "C918120"
 			(at 264.16 96.52 0)
 			(effects
 				(font
@@ -7586,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "90"
+		(property "FT Rotation Offset" ""
 			(at 264.16 96.52 0)
 			(effects
 				(font
@@ -8805,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Wago-2"
+		(property "Value" "Screw term."
 			(at 270.51 34.036 0)
 			(effects
 				(font
@@ -8814,7 +8814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:Wago_2059-302_998-403"
+		(property "Footprint" "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN"
 			(at 264.16 31.75 0)
 			(effects
 				(font
@@ -8841,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2765060"
+		(property "LCSC Part" "C918120"
 			(at 264.16 31.75 0)
 			(effects
 				(font
@@ -8850,7 +8850,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "90"
+		(property "FT Rotation Offset" ""
 			(at 264.16 31.75 0)
 			(effects
 				(font
@@ -16135,7 +16135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Wago-2"
+		(property "Value" "Screw term."
 			(at 266.7 35.5601 0)
 			(effects
 				(font
@@ -16145,7 +16145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LCSC_parts_lib:Wago_2059-302_998-403"
+		(property "Footprint" "LCSC_parts_lib:CONN-TH_DB125-2.54-2P-GN"
 			(at 264.16 38.1 0)
 			(effects
 				(font
@@ -16172,7 +16172,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2765060"
+		(property "LCSC Part" "C918120"
 			(at 264.16 38.1 0)
 			(effects
 				(font
@@ -16181,7 +16181,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "90"
+		(property "FT Rotation Offset" ""
 			(at 264.16 38.1 0)
 			(effects
 				(font
