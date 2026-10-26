@@ -18274,7 +18274,7 @@
 		)
 		(pad "1" smd roundrect
 			(at -1.1625 -0.75 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 85 "Net-(U12-SDO{slash}SA0)")
@@ -18284,7 +18284,7 @@
 		)
 		(pad "2" smd roundrect
 			(at -1.1625 -0.25 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 58 "Net-(U12-SDX)")
@@ -18294,7 +18294,7 @@
 		)
 		(pad "3" smd roundrect
 			(at -1.1625 0.25 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 83 "Net-(U12-SCX)")
@@ -18304,7 +18304,7 @@
 		)
 		(pad "4" smd roundrect
 			(at -1.1625 0.75 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 84 "Net-(U12-INT1)")
@@ -18314,7 +18314,7 @@
 		)
 		(pad "5" smd roundrect
 			(at -0.5 0.9125 270)
-			(size 0.35 0.625)
+			(size 0.3 0.625)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 57 "Net-(U12-VDD)")
@@ -18324,7 +18324,7 @@
 		)
 		(pad "6" smd roundrect
 			(at 0 0.9125 270)
-			(size 0.35 0.625)
+			(size 0.3 0.625)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
@@ -18334,7 +18334,7 @@
 		)
 		(pad "7" smd roundrect
 			(at 0.5 0.9125 270)
-			(size 0.35 0.625)
+			(size 0.3 0.625)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
@@ -18344,7 +18344,7 @@
 		)
 		(pad "8" smd roundrect
 			(at 1.1625 0.75 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 57 "Net-(U12-VDD)")
@@ -18354,7 +18354,7 @@
 		)
 		(pad "9" smd roundrect
 			(at 1.1625 0.25 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 86 "Net-(U12-INT2)")
@@ -18364,7 +18364,7 @@
 		)
 		(pad "10" smd roundrect
 			(at 1.1625 -0.25 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 88 "unconnected-(U12-OCS_Aux-Pad10)")
@@ -18374,7 +18374,7 @@
 		)
 		(pad "11" smd roundrect
 			(at 1.1625 -0.75 270)
-			(size 0.625 0.35)
+			(size 0.625 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 87 "unconnected-(U12-SDO_Aux-Pad11)")
@@ -18384,7 +18384,7 @@
 		)
 		(pad "12" smd roundrect
 			(at 0.5 -0.9125 270)
-			(size 0.35 0.625)
+			(size 0.3 0.625)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 2 "+3V3")
@@ -18394,7 +18394,7 @@
 		)
 		(pad "13" smd roundrect
 			(at 0 -0.9125 270)
-			(size 0.35 0.625)
+			(size 0.3 0.625)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 33 "/Schematic/Audio/IO_03")
@@ -18404,7 +18404,7 @@
 		)
 		(pad "14" smd roundrect
 			(at -0.5 -0.9125 270)
-			(size 0.35 0.625)
+			(size 0.3 0.625)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 24 "/Schematic/Audio/IO_02")
